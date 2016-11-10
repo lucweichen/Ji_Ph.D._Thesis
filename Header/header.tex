@@ -1,0 +1,111 @@
+\documentclass[12pt, a4paper, twoside]{book}
+\usepackage{mathtools}
+\usepackage{algorithmicx}
+\usepackage{blindtext}
+\usepackage{etoc}
+\usepackage{framed} 
+\usepackage{algpseudocode}
+\usepackage{float}
+\newfloat{algorithm}{t}{lop}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\usepackage{amsmath,amssymb}
+\usepackage[french, english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{color}
+\usepackage[a4paper]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage[OT1]{fontenc}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{subfigure}
+\usepackage{imakeidx}
+\usepackage{lscape}
+\usepackage{caption}
+\usepackage[normalem]{ulem}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{titlesec}% http://ctan.org/pkg/titlesec
+\usepackage{lipsum}
+\usepackage{lmodern}
+\usepackage{setspace}
+
+\algnewcommand\algorithmicinput{\textbf{Input:}}
+\algnewcommand\INPUT{\item[\algorithmicinput]}
+\algnewcommand\algorithmicoutput{\textbf{Output:}}
+\algnewcommand\OUTPUT{\item[\algorithmicoutput]}
+\algnewcommand\algorithmicbegin{\textbf{begin}}
+\algnewcommand\BEGIN{\item[\algorithmicbegin]}
+\algnewcommand\algorithmicendbegin{\textbf{end}}
+\algnewcommand\ENDBEGIN{\item[\algorithmicendbegin]}
+\renewcommand{\algorithmicforall}{\textbf{for each}}
+\algdef{SE}[DOWHILE]{Do}{doWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}%
+\interfootnotelinepenalty=10000
+\raggedbottom
+
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage[document]{ragged2e}
+
+\usepackage{emptypage}
+
+\usepackage{url}
+
+\usepackage{balance}
+
+\usepackage{times,epsfig,morefloats,multirow}
+
+\usepackage{t1enc}
+
+\usepackage{comment}
+\usepackage{float} 
+\usepackage{caption} 
+\usepackage{epstopdf}
+\usepackage{amsthm}
+
+
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+\newcommand{\mrt}[1]{\mathcal{\uppercase{#1}}}
+
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}} 
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{example}{Example}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}{Corollary}[theorem]
+
+\usepackage{csquotes}
+\usepackage[normalem]{ulem}
+
+\usepackage{a4wide}
+\usepackage{geometry}
+%\usepackage{timestamp}
+\geometry{%
+  a4paper, body={150mm,220mm},
+  left=25mm,top=30mm,
+  headheight=7mm,
+  headsep=14mm,
+  marginparsep=4mm, marginparwidth=27mm
+}
+
+\usepackage{cdlr}
+
+\makeatletter
+\newcommand{\ps@thesis}{%
+  \renewcommand{\@oddhead}{{\rightmark}\hfil\thepage}
+  \renewcommand{\@oddfoot}{}
+  \renewcommand{\chaptermark}[1]{\markboth{\thechapter. ##1}{}}
+  \renewcommand{\sectionmark}[1]{\markright{\thesection\quad ##1}}
+}
+\makeatother
+
+\pagestyle{thesis}

@@ -1,0 +1,29 @@
+%\selectlanguage{french}
+\chapter{Résumé}
+
+Les \textit{workflows scientifiques} (\textit{SWfs}) permettent d'exprimer facilement des activités de calcul sur des données, comme charger des fichiers d'entrée, exécuter des analyses, et agréger les résultats. Un SWf décrit les dépendances entre les activités, généralement comme un graphe où les nœuds sont des activités et les arêtes représentent les dépendances entre les activités. Les SWfs sont souvent orientés-données, manipulant de grandes quantités de données. Afin d'éxecuter des SWfs orientés-données dans un temps raisonnable, les \textit{systèmes de gestion de workflows scientifiques} (\textit{SWfMSs}) peuvent être utilisés et déployés dans un environnement de calcul à haute performance (HPC).
+
+Parce qu'il offre des services stables et des ressources de calcul et de stockage quasiment infinies à un coût raisonnable, le cloud devient attractif pour l'exécution de SWfs. Un cloud est généralement constitué de plusieurs sites (ou \textit{data centers}), chacun avec ses propres ressources et données. 
+L'exécution de SWf doit alors être adaptée à un cloud multisite tout en exploitant les ressources de calcul ou de stockage distribuées.
+
+Dans cette thèse, nous étudions le problème d'exécution efficace des SWfs orientés-données dans un cloud multisite. La plupart des SWfMSs ont été conçus pour des clusters ou grilles, et quelques uns ont été étendus pour le cloud, en les déployant simplement dans des machines virtuelles (VMs), mais seulement pour un seul site. Pour résoudre le problème dans le cas multisite, nous proposons une approche distribuée et parallèle qui exploite les ressources disponibles de chaque site. Pour exploiter le parallélisme, nous utilisons une approche algébrique, qui permet d'exprimer les activités en utilisant des opérateurs et les transformer automatiquement en de multiples tâches.
+
+La principale contribution de la thèse est une architecture multisite et des techniques distribuées pour exécuter les SWfs. Les principales techniques utilisent des algorithmes de partitionnement de SWf, un algorithme dynamique pour le provisionnement de VMs, un algorithme d'ordonnancement des activités et un algorithme d'ordonnancement de tâches. 
+Les algorithmes de partitionnement de SWfs décomposent un SWf en plusieurs fragments, chacun pour un site différent. L'algorithme dynamique pour le provisionnement de VMs est utilisé pour créer une combinaison optimale de VMs pour exécuter des fragments à chaque site. L'algorithme d'ordonnancement des activités distribue les fragments vers les sites, selon un modèle de coût multi-objectif, qui combine à la fois temps d'exécution et coût monétaire. L'algorithme d'ordonnancement de tâches distribue directement des tâches sur les différents sites en réalisant l'équilibrage de charge au niveau de chaque site. Nos expérimentations montrent que notre approche peut réduire considérablement le coût global de l'exécution de SWfs dans un cloud multisite.
+
+\abstractsection{Titre en français}
+\begin{quote}
+  \textit{Gestion multisite de workflows scientifiques dans le cloud}
+  
+ 
+\end{quote}
+
+\abstractsection{Mots-clés} 
+
+\begin{itemize}
+ \item Workflow scientifique
+ \item Système de gestion de workflows scientifiques
+ \item Multisite cloud 
+ \item Ordonnancement
+   
+\end{itemize}

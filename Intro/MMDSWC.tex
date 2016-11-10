@@ -1,0 +1,127 @@
+\chapter{Introduction} \label{Intro}
+
+\textit{Scientific Workflows} (\textit{SWfs}) enable scientists to easily express multi-step computational activities, such as load input data files, process the data, run analyses, and aggregate the results. The computational activities are related by dependencies. A SWf describes activities and the dependencies typically as a graph, where vertexes represent data processing activities and edges represent dependencies between them. 
+As the computation in scientific experiments becomes complex and analyzes big amounts of data, SWfs are widely used in multiple domains, such as astronomy \cite{Deelman2008}, biology \cite{Ocana2012}, physics \cite{Ogasawara2011}, seismology \cite{Deelman2006z}, meteorology \cite{Woitaszek2011} and so on.
+
+SWfs are often \textit{data-intensive}, \textit{i.e.} process, manage or produce huge amounts of data.
+Managing and manipulating data-intensive SWfs with traditional programming tools (\textit{e.g.} code libraries, scripting languages) becomes very hard and impossible as complexity increases. 
+Therefore, \textit{SWf Management Systems} (\textit{SWfMSs}) have been specifically developed to ease dealing with SWfs, which includes many aspects such as modeling, programming, debugging, and executing SWfs. 
+SWfMSs generally generate provenance data during SWf execution.
+Provenance data, which traces the execution of SWfs and the relationship between input data and output data, is sometimes more important than SWf execution itself.
+In order to execute data-intensive SWfs within a reasonable time, SWfMSs exploit parallelism techniques with High Performance Computing (HPC) resources in a cluster, grid or cloud environment. 
+Some existing SWfMSs, \textit{e.g.} Pegasus \cite{Deelman2005,Deelman2014}, Swift \cite{Zhao2007},
+and Chiron \cite{Ogasawara2013}, are publicly available for SWf execution and management. 
+However, most of them are designed for computing cluster or grid environments. 
+In cloud environments, SWfMSs generally use the same approaches designed for computing clusters or grids, which are not optimized for cloud environments. 
+
+By offering virtually infinite resources, diverse scalable services, stable service quality and flexible payment policies, 
+the \textit{cloud} becomes an appealing solution for SWf execution. 
+SWfMSs can be easily deployed in the cloud exploiting \textit{Virtual Machines} (\textit{VMs}). 
+With a pay-as-you-go method, the users of clouds do not need to buy physical machines and the maintenance of the machines is ensured by cloud providers. 
+Thus, cloud environments become interesting infrastructures for SWf execution.
+
+A cloud is typically \textit{multisite}, \textit{i.e.} made of several sites (or data centers), each with its own resources and data and is explicitly accessible to cloud users.
+Because of low latency and proprietary issues, the data are generally stored at the cloud site where the data sources are located. 
+For instance, the climate data in the Earth System Grid \cite{Williams2009}, large amounts of raw data from Quantum Chromodynamics (QCD) \cite{Perry2005} and the data of the ALICE project \cite{alice} are geographically distributed.
+As a consequence, the input data of a SWf can be geographically distributed and SWf execution should be adapted to a multisite cloud while exploiting distributed computing or storage resources beyond one cloud site. 
+The existing approaches focus on the computing cluster, grid or a single site cloud environment, which leave space for executing SWfs in multisite cloud environments. 
+
+
+\section{Thesis Context}
+This thesis has been prepared in the context of two collaborative research projects: Z-CloudFlow and MUSIC (MUltiSite Cloud data management). The Z-CloudFlow project is supported by the Microsoft Research-INRIA joint center (France). It focuses on the data management of SWfs in the cloud. The goal of this project is to propose a framework to efficiently execute SWfs with large data volumes while leveraging the cloud infrastructure capabilities. MUSIC is a joint project between LNCC, COPPE/UFRJ and UFF (Brazil) and INRIA, focusing on a multisite cloud model where each site is visible from outside. The main objective of this project is to develop a multisite cloud architecture for processing, managing and analyzing scientific data, which can be heterogeneous data or complex big data, possibly using SWfs and SWfMSs. In this thesis, we use an algebraic SWfMS (Chiron) developed at COPPE/UFRJ.
+
+We consider the problem of efficiently executing data-intensive SWfs in a multisite cloud, where the data and computing resources are distributed in different cloud sites. There are basically three challenges:
+\begin{itemize}
+\item How to execute SWfs with distributed data in the multisite cloud? The data can be distributed at different sites but may not be allowed to be moved to other sites because of large size or proprietary reasons. We call this the data location constraint. This data, which cannot be moved, can be input data or configuration data of a SWf. The input data is the data to be processed by SWfs. During SWf execution, intermediate data can be generated by processing the input data by one or several activities. The intermediate data, which is the input data of following activities, can be of large size and moved across multiple sites. Some configuration data located at specific sites are used for SWf execution. Thus, during SWf execution, the data location constraint should be considered for the scheduling of activities or tasks at multiple sites. 
+\item How to deal with heterogeneous features of each cloud sites for SWf execution? Within one cloud site, the bandwidth between any two computing nodes may be similar while the bandwidth between two computing nodes located at different cloud sites may vary significantly. In addition, the cost to use VMs at different cloud sites can be very different. Thus, the challenge is how to schedule the execution of SWfs in order to reduce execution time and monetary cost with the consideration of these heterogeneous features in a multisite cloud.
+\item How to manage the VM provisioning in the cloud for SWf execution? A major difference between cloud and grid or cluster is that we can dynamically provision VMs before or during SWf execution in the cloud. However, the challenge of VM provisioning, \textit{i.e.} how to decide the number and types of VMs for SWf execution in order to reduce both execution time and monetary cost, remains critical for SWf execution in the cloud. 
+\end{itemize}
+
+In order to address these challenges, we deal with the following aspects:
+\begin{itemize}
+\item Partitioning of SWfs for multisite execution considering the data stored at each site while reducing execution time. 
+\item Provisioning of VMs for SWf execution in the clouds in order to reduce both execution time and monetary cost. 
+\item Scheduling of activities in a multisite cloud considering the distributed data and different costs of using VMs at different cloud sites while reducing execution time and monetary cost. 
+\item Adapting a single site SWfMS to multisite, which can execute the tasks at different sites to process the distributed data.
+\item Scheduling tasks with provenance support and distributed data for a single activity while considering different bandwidths among different sites in order to reduce execution time. 
+\end{itemize}
+
+\section{Contributions}
+
+The main objective of this thesis is to efficiently execute data-intensive SWfs in a multisite cloud, where each site has its own cluster, data and programs.
+Our survey (see Chapter \ref{State} on State of the Art) shows that most SWfMSs have been designed for computer clusters or grids, and some have been extended to operate in the cloud, but only for a single site. 
+In order to achieve the objective, we propose a distributed and parallel approach that leverages the resources available at different cloud sites. 
+To exploit parallelism, we use an algebraic approach, which allows expressing SWf activities using operators and automatically transforming them into multiple tasks.
+
+The main techniques consist of SWf partitioning algorithms, a dynamic VM provisioning algorithm, an activity scheduling algorithm and a task scheduling algorithm. 
+Different SWf partitioning algorithms partition a SWf to several fragments according to different cloud configurations. 
+The VM provisioning algorithm is used to dynamically create an optimal combination of VMs for executing SWf fragments at each cloud site, based on a multi-objective cost model composed of execution time and monetary cost.
+The activity scheduling algorithm distributes the SWf fragments to the cloud sites with the minimum cost based on a multi-objective cost model, which combines both execution time and monetary cost. 
+The task scheduling algorithm directly distributes tasks among different cloud sites while achieving load balancing at each site. 
+This scheduling algorithm is based on a multisite SWfMS, which generates provenance data for multisite SWf execution using a centralized method.
+Our experiments show that our approach can reduce considerably the overall cost of SWf execution in a multisite cloud.\\
+
+The contributions of thesis are:
+
+\begin{itemize}
+\item \textbf{A survey of techniques to execute data-intensive SWfs in a multisite cloud.} First, we define the important concepts, \textit{e.g.} SWfs, SWfMSs. We propose a general functional architecture of SWfMSs and identify different parallelism techniques and scheduling approaches for SWf execution. We also present the parallelization techniques to execute SWfs in clouds. Furthermore, we analyze the features of different systems including frameworks and eight widely used SWfMSs. Finally, we propose some research issues for SWf execution in a multisite cloud.
+
+\item \textbf{A non-intrusive method to execute SWfs in a multisite cloud.} Most SWfMSs can be used in a single site cloud. However, some activities of a SWf may need to be executed at different specific cloud sites. To this end, we propose a non-intrusive method with three SWf partitioning techniques for SWf execution in a multisite cloud in order to reduce execution time. We consider using the existing VMs at each cloud site and do not change the VMs before or during SWf execution. The three partitioning techniques are based on scientific privacy, computing capacity and data transfer minimization respectively.
+With each partitioning technique, a SWf can be partitioned to several SWf fragments. Each fragment can be executed at a cloud site with a single site SWfMS.
+In addition, SWf fragments are scheduled by respecting all the data dependencies in the original SWf. 
+The partitioning techniques are validated by executing the Buzz SWf in Microsoft Azure multisite cloud with a variation of the Chiron SWfMS.
+Our experiment results reveal that different partitioning techniques can reduce execution time for different cloud configurations.
+
+\item \textbf{A VM provisioning algorithm for SWf execution in a single site cloud.} 
+The users of SWfMSs generally have multiple objectives to execute SWfs in a cloud, \textit{e.g.} reducing execution time and monetary cost. In order to achieve multiple objectives without modifying SWfMSs and scheduling approaches, we propose a VM provisioning algorithm for single site SWf execution with a proposed cost model. This is a base for the SWf execution in a multisite cloud. The cost model is composed of monetary cost and execution time, with the consideration of sequential workload of SWf execution and the cost to initialize VMs in the cloud.
+Based on the cost model, we propose a VM provisioning algorithm (SSVP) in order to generate VM provisioning plans for SWf execution with the minimum cost. SSVP calculates an optimal number of virtual CPU cores for SWf execution and then generates a VM provisioning plan corresponding to the minimum cost to execute the SWf.
+SSVP is compared with an existing algorithm, \textit{i.e.} GraspCC, by executing SciEvol using Chiron in the Azure cloud. 
+The experimental results show that our proposed algorithm (SSVP) generates better (smaller cost) VM provisioning plans for different configurations of SWf execution compared with GraspCC. 
+
+\item \textbf{A multi-objective general approach to executing SWfs in a multisite cloud.} In a multisite cloud, the configuration data of some activities may be stored at specific cloud sites. Because of the stored data, some activities can be just executed at the site where the configuration data is stored. In addition, the cost of using VMs at different cloud sites are different. In this situation, we propose a general multi-objective approach to executing SWfs in a multisite cloud with the stored data constraint. First, we propose a system model for multisite SWf execution with coarse-grained parallelism at the multisite level, \textit{i.e.} one SWf fragment can only be executed at one cloud site.
+An activity can only be executed at a single cloud site with the coarse-grained parallelism. Then, we propose a multi-objective cost model for multisite SWf execution in the cloud. The cost model is also composed of monetary cost and execution time. Based on the multisite multi-objective cost model, SWf partitioning methods and the SSVP algorithm, we propose a multisite fragment scheduling algorithm (ActGreedy) and adapt two existing scheduling algorithms (LocBased and SGreedy) to multisite cloud environments. We validate our proposed scheduling algorithm by executing the SciEvol SWf with Chiron at three sites of the Azure cloud. The experimental results show that ActGreedy performs much better than LocBased and SGreedy in terms of the cost to execute SWfs in the multisite cloud. 
+
+\item \textbf{Multisite Chiron.} Multisite Chiron is an extension of Chiron for multisite cloud environments. Chiron implements an algebraic approach to express SWfs, optimize SWf execution in a single cluster. Multisite Chiron enables task execution of an activity at different sites to process the distributed data simultaneously. We also propose the multisite provenance model for multisite Chiron. In a multisite cloud, we propose different data communication methods for multisite Chiron. We use our two level scheduling method, \textit{i.e.} multisite scheduling and single site scheduling, for task scheduling in a multisite cloud.  Multisite Chiron corresponds to fine-grained parallelism at the multisite level, which is different from the coarse-grained parallelism. The fine-grained parallelism enables different tasks of one activity to be executed at different cloud sites.
+
+\item \textbf{A multisite task scheduling (DIM) algorithm.} DIM is a multisite scheduling algorithm with the assumption that the provenance data is stored at a centralized site. DIM schedules tasks to different sites with the consideration of data location and different bandwidths among different sites for provenance data generation. In this work, we also propose a model to estimate the time to execute bags of tasks at a site. We use Buzz and Montage SWfs to validate our proposed algorithm using the multisite Chiron. The experimental results reveal that DIM is much better than two baseline algorithms in terms of execution time and intersite data transfer. \\
+\end{itemize}
+
+All these contributions have been published in the following publications:
+
+\begin{itemize}
+
+\item \textit{Ji Liu}, Esther Pacitti, Patrick Valduriez, Daniel de Oliveira and Marta Mattoso. Multi-Objective Scheduling of Scientific Workflows in Multisite Clouds. In BDA’$2016$: Gestion de données - principles, technologies et applications, $2016$. To appear.
+
+\item Luis Pineda-Morales, \textit{Ji Liu}, Alexandru Costan, Esther Pacitti, Gabriel Antoniu, Patrick Valduriez, and Marta Mattoso. Managing Hot Metadata for Scientific Workflows on Multisite Clouds. In IEEE International Conference on Big Data, $2016$. To appear.
+
+\item \textit{Ji Liu}, Esther Pacitti, Patrick Valduriez, Marta Mattoso. Scientific Workflow Scheduling with Provenance Support in Multisite Cloud. In 12th International Meeting on High Performance Computing for Computational Science (VECPAR), $2016$, $1-8$.
+
+\item \textit{Ji Liu}, Esther Pacitti, Patrick Valduriez, Daniel Oliveira, Marta Mattoso. Multi-objective scheduling of Scientific Workflows in multisite clouds. In Future Generation Computer Systems, $2016$, volume $63$, $76-95$.
+
+\item \textit{Ji Liu}, Esther Pacitti, Patrick Valduriez, Marta Mattoso. A Survey of Data-Intensive Scientific Workflow Management. In Journal of Grid Computing, $2015$, volume $13$, number $4$, $457-493$.
+
+\item \textit{Ji Liu}, Esther Pacitti, Patrick Valduriez, Marta Mattoso, Parallelization of Scientific Workflows in the Cloud, Research Report RR-$8565$, $2014$.
+
+\item \textit{Ji Liu}, V\'{i}tor Silva, Esther Pacitti, Patrick Valduriez, Marta Mattoso. Scientific Workflow Partitioning in Multi-site Clouds. In BigDataCloud'2014: 3rd Workshop on Big Data Management in Clouds in conjunction with Euro-Par, Aug $2014$. Springer, Lecture Notes in Computer Science, $8805$,  $105-116$.
+
+\item \textit{Ji Liu}. Multisite Management of Data-intensive Scientific Workflows in the Cloud. In BDA’$2014$: Gestion de données - principles, technologies et applications, $2014$, $28-30$.
+
+\end{itemize}
+
+\section{Organization of the Thesis}
+
+The rest of the thesis is organized as follows.
+
+\paragraph{Chapter \ref{State}: State Of The Art.} This chapter is a survey of the existing techniques for SWf execution. First, it introduces a general definition of SWfs and SWfMSs, and presents the functional architecture of SWfMSs, the features, and techniques for data-intensive SWfs. Then, it presents parallelism techniques, including coarse-grained parallelism and fine-grained parallelism (data parallelism, independent parallelism, pipeline parallelism, and hybrid parallelism), and scheduling techniques, \textit{i.e.} static scheduling, dynamic scheduling, and hybrid scheduling. Afterward, it focuses on the cloud environment for SWf execution including multisite management, data storage, and the techniques to execute SWfs in the cloud. Furthermore, it analyzes the features of different systems including frameworks and eight widely used SWfMSs. Finally, it analyzes the limitations of the existing approaches and proposes research directions for SWf execution in a multisite cloud.
+
+\paragraph{Chapter \ref{SWPMC}: SWf Partitioning.} In this chapter, we propose an approach to executing SWfs with SWf partitioning techniques in a multisite cloud. First, we propose a preliminary system model. Then, we present DAG partitioning, data partitioning, and a general DAG partitioning techniques. Afterward, we propose three DAG partitioning techniques, \textit{i.e.} Scientist Privacy (SPr), Data Transfer Minimization (DTM) and Computing Capacity Adaptation (CCA), and a data refining technique composed of data combining and compression. We validate the techniques by executing a Buzz SWf with the Chiron SWfMS in the Azure multisite cloud. The results show that DTM performs better when all the cloud sites have the same amounts and types of VMs and that CCA is suitable for the environment where not all the cloud sites have the same amounts or types of VMs. The results also show that data refining technique can significantly reduce the data transfer time between two cloud sites.
+
+\paragraph{Chapter \ref{MOVMPSWC}: VM Provisioning for a single site cloud.} In this chapter, we propose a VM provisioning approach for SWf execution in a single site cloud with multiple objectives, \textit{i.e.} reducing execution time and monetary cost. We present our cost model and detail our proposed Single Site VM provisioning (SSVP) algorithm. SSVP considers the time to initialize VMs and the sequential part of the workload in SWf execution. Then, we validate the cost model and algorithm by executing SciEvol in Azure and compare SSVP with an existing approach. The results show that SSVP can generate better VM provisioning plans compared with the existing approach, \textit{i.e.} GraspCC, with the different importance of objectives. In addition, the results show that our cost model is precise. Furthermore, the results reveal that because of our cost model, SSVP is sensitive to the different importance of objectives, which can generate better provisioning plans for different configurations.
+
+\paragraph{Chapter \ref{MOSSWMC}: Multi-objective Fragment scheduling.} In this chapter, we propose a multi-objective fragment scheduling algorithm for multisite SWf execution in a multisite cloud. First, we define the fragment scheduling problem with a stored data constraint and present the system architecture. Then, we show our multi-objective cost model for multisite SWf execution in the cloud. Afterward, we propose the fragment scheduling algorithms including two adapted scheduling algorithms, \textit{i.e.} Data Location Based Scheduling (LocBased) and Site Greedy Scheduling (SGreedy), and our proposed scheduling algorithm, namely Activity Greedy Scheduling (ActGreedy). Finally, we validate our proposed scheduling algorithm by executing the SciEvol SWf at three sites of the Azure cloud. The results show that ActGreedy corresponds to less cost compared with LocBased and SGreedy and that the scheduling time of our proposed algorithm is reasonable.
+
+\paragraph{Chapter \ref{SWSPSMC}: Task Scheduling with Provenance Support.} In this chapter, we propose a task scheduling approach and the Multisite Chiron. First, we define the task scheduling problem and present multisite Chiron, including the architecture and the provenance model for multisite SWf execution with a centralized provenance database. Then, we propose our task scheduling algorithm, \textit{i.e.} Data-Intensive Multisite task scheduling (DIM), which considers the time to transfer intersite data, including input data of activities and provenance data. In addition, DIM can achieve load balance of each site in order to reduce overall execution. We validate DIM based on multisite Chiron by executing Buzz and Montage in the Azure cloud with three sites. The experimental results reveal that our scheduling algorithm performs much better in terms of both execution time and the amounts of intersite data transfer compared with two existing algorithms. 
+
+\paragraph{Chapter \ref{ch:conclusion}: Conclusion.} In this last chapter, we summarize our contributions, discuss the limitations, and point out the future research directions.
+
+

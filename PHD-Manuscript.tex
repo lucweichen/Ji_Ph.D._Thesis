@@ -1,0 +1,113 @@
+\input{Header/header}
+
+\newlength\longest
+
+\begin{document}
+
+\justifying
+
+\university{Universit\'e de Montpellier}
+
+\univlogo{logo_um.eps}
+\doctoral{I2S${}^*$}
+\researchunit{UMR 5506}
+\specialisation{Informatique}
+\titlefootnote{{\bf ${}^*$ I2S:} \sc École doctorale Information Structures Systèmes}
+\author{Ji Liu}
+\date{20/11/2016}
+\email{ji.liu@inria.fr}
+
+\title{Gestion multisite de workflows scientifiques dans le cloud}
+\jury{M. Pascal {\sc Molli}}{Professeur}{Université de Nantes}{Rapporteur}
+\jury{M. Sébastien {\sc Monnet}}{Professeur}{Université de Savoie}{Rapporteur}
+\jury{Mme. Christine {\sc Morin}}{Directrice de recherche}{INRIA}{Examinatrice}
+\jury{Mme. Marta {\sc mattoso}}{Professeur}{COPPE / Federal University of Rio de Janeiro}{Co-encadrante}
+\jury{Mme. Esther {\sc Pacitti}}{Professeur}{Universit\'e de Montpellier}{Co-directrice}
+\jury{M. Patrick {\sc Valduriez}}{Directeur de recherche}{INRIA}{Co-directeur}
+
+\maketitle
+
+%------------------------- Abstract --------------------------%
+\frontmatter
+\newcommand{\abstractsection}[1]{%
+  \vspace{10mm}
+  {\normalfont\large\bfseries #1}
+	\vspace{2mm}
+}
+
+\clearpage
+
+\thispagestyle{empty}
+\null\vfill
+
+\settowidth\longest{\huge\itshape as long as the unremittingly,}
+\begin{flushright}
+\parbox{\longest}{%
+  \raggedright{\Large\itshape%
+  Don't lose faith, \\
+  as long as the unremittingly, \\
+  you will get some fruits.\par\bigskip
+  }   
+  \raggedleft\Large\MakeUppercase\bf{\textemdash Hsue-Chu Tsien}\par%
+}
+\end{flushright}
+\vfill\vfill
+
+\clearpage
+
+%\topmatter{Dedication}
+%\chapterr{Dedication}
+\noindent \begin{Large}\bf{Dedication}\end{Large}
+\\
+\\
+\\
+  \begin{quote}
+  	To my family.
+  \end{quote}
+  
+  
+  
+\include{Abstract/Act}
+
+\selectlanguage{french}
+\include{Abstract/Resume} % French abstract
+
+
+\selectlanguage{english}
+\include{Abstract/Abstract} % English abstract
+\include{Lab/Lab} % Rattachement
+
+
+\selectlanguage{french}
+\include{Abstract/French} % French long summary
+
+\selectlanguage{english}
+%------------------------- Contents --------------------------%
+\tableofcontents
+\clearpage
+
+%\listoffigures
+%\clearpage
+
+%\listoftables
+%\clearpage
+
+%------------------------- Chapters --------------------------%
+\mainmatter
+
+\include{Intro/MMDSWC}
+\include{StateOfTheArt/PSWC_J}
+\include{SWEMC/SWEMC}
+\include{provisioning/WFSMC}
+\include{Multio/WFSMC}
+\include{FGTS/FGTSMCPS}
+\include{conclusion/Conclusions}
+
+%----------------------- Bibliography ------------------------%
+\backmatter
+%\addcontentsline{toc}{chapter}{\refname}
+\bibliographystyle{acm}
+\bibliography{My_Library}
+
+\end{document}
+

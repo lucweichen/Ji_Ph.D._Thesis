@@ -1,0 +1,83 @@
+\RequirePackage{timestamp}
+\RequirePackage{graphicx}
+\RequirePackage{tikz}
+\RequirePackage{setspace}
+
+\makeatletter
+\def\@title{\textless{}Titre de la thèse\textgreater}
+\def\@author{\textless{}Civilité Nom Prénom\textgreater}
+\def\@date{\textless{}JJ/MM/AAAA\textgreater}
+\def\@email{}
+  \newcommand{\email}[1]{\gdef\@email{#1}}
+\def\@university{\textless{}Université\textgreater}
+  \newcommand{\university}[1]{\gdef\@university{#1}}
+\def\@researchunit{\textless{}Unité de recherche\textgreater}
+  \newcommand{\researchunit}[1]{\gdef\@researchunit{#1}}
+\def\@specialisation{\textless{}Spécialité\textgreater}
+  \newcommand{\specialisation}[1]{\gdef\@specialisation{#1}}
+\def\@doctoral{\textless{}École doctorale\textgreater}
+  \newcommand{\doctoral}[1]{\gdef\@doctoral{#1}}
+\newcommand{\titletimestamp}{\gdef\@titletimestamp}
+%\def\@myquote{\textless{}Une citation courte mais intéressante de votre thèse
+%(ce n'est pas poi qui écrit les consignes hein, alors ne vous plaigniez pas.}
+ % \newcommand{\myquote}[1]{\gdef\@myquote{#1}}
+\def\@univlogo{logo-um2.png}
+  \newcommand{\univlogo}[1]{\gdef\@univlogo{#1}}
+\def\@jury{}
+  \newcommand{\jury}[4]{\expandafter\def\expandafter\@jury\expandafter{\@jury{} #1 & #2 & #3 & #4 \\}}
+\def\@titlefootnote{}
+\newcommand{\titlefootnote}[1]{\gdef\@titlefootnote{#1}}
+
+\renewcommand{\maketitle}
+{
+  \begin{titlepage}
+
+  \onehalfspacing
+  \begin{tikzpicture}[remember picture, overlay]
+
+    % Include the logo
+    \coordinate[xshift=6cm] (shadewidth) at (current page.north west) {};
+    \coordinate[xshift=6cm] (shadecorner) at (current page.south west) {};
+    \shade[top color=white,bottom color=gray] (current page.north west) rectangle (shadecorner) {};
+    \draw[color=darkgray,line width=1.5pt] (shadewidth) -- (shadecorner);
+    \node[anchor=north west,yshift=-2cm] at (current page.north west) {\includegraphics[width=5.5cm]{logo-cdlr.eps}};
+    \node[anchor=north west, xshift=2.5, yshift=-25cm] at (current page.north west) {\includegraphics[width=5.5cm]{\@univlogo}};
+  %  \node[anchor=north west,yshift=-22cm] at (current page.north west) {\includegraphics[width=5.5cm]{logo-lirmm.png}};
+    \node[anchor=north west,yshift=-2cm,xshift=6.5cm] at (current page.north west) {\includegraphics[width=12cm]{en-tete-cdlr2.eps}};
+
+    \coordinate[xshift=3cm] (vcenter) at (current page.north) {};
+
+    \node[yshift=-6cm] at (vcenter) {{\large Délivré par l'{\sc\bf \@university}}};
+
+    \node[yshift=-8cm] at (vcenter) {{\large Préparée au sein de l'école doctorale {\sc\bf\@doctoral}}};
+    \node[yshift=-8.5cm] at (vcenter) {{\large Et de l'unité de recherche {\sc\bf\@researchunit}}};
+
+    \node[yshift=-9.5cm] at (vcenter) {{\large Spécialité: {\sc\bf\@specialisation}}};
+    \node[yshift=-11cm] at (vcenter) {{\large Présentée par {\bf\@author}}};
+    \node[yshift=-11.5cm] at (vcenter) {\tt\@email};
+    \ifx\@titletimestamp\undefined
+    \else
+      \node[yshift=-12cm] at (vcenter) {{\em Version mise à jour le \today{} à \xxivtime}};
+    \fi
+  \node[yshift=-15cm,draw=black, inner sep=20pt] at (vcenter) {\begin{minipage}{0.7\textwidth}\centering\LARGE\bfseries\noindent\@title\end{minipage}};
+    \node[yshift=-20cm,xshift=-2cm] at (vcenter) {\small Soutenue le \@date{} devant le jury composé de :};
+
+    \node[anchor=north,yshift=-20.5cm] at (vcenter) {{\small
+\resizebox{\linewidth}{!}{%
+      \begin{tabular}{llll}
+        \@jury
+      \end{tabular}
+}
+
+
+  }};
+
+  %\node[yshift=-27cm,text width=0.8\textwidth,draw=black,inner sep=0.5em] at (vcenter) {{\em [\@myquote]}};
+  \node[yshift=-29cm,text width=0.8\textwidth] at (vcenter) {{\footnotesize\@titlefootnote}};
+
+  \end{tikzpicture}
+  \singlespacing
+  \end{titlepage}
+  \cleardoublepage
+}
+\makeatother

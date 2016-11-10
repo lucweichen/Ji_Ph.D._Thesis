@@ -1,0 +1,63 @@
+\chapter{Abstract}
+
+\textit{Scientific Workflows} (\textit{SWfs}) allow scientists to easily express multi-step computational
+activities, such as load input data files, process the data, run analyses, and aggregate
+the results. A SWf describes the dependencies between activities, typically as a graph
+where the nodes are activities and the edges express the activity dependencies.
+
+SWfs are often data-intensive, \textit{i.e.} process, manage or produce huge amounts of data.
+In order to execute data-intensive SWfs within a reasonable time, \textit{Scientific Workflow Management Systems} (\textit{SWfMSs})
+can be used and deployed in High Performance Computing (HPC) environments (cluster, grid
+or cloud).
+By offering stable services and virtually infinite computing,
+and storage resources at a reasonable cost, the cloud becomes appealing for SWf execution. SWfMSs
+can be easily deployed in the cloud using Virtual Machines (VMs). A cloud is
+typically made of several sites (or data centers), each with its own resources and data.
+Since a SWf may process data located at different sites, SWf execution should be
+adapted to a multisite cloud while exploiting distributed computing or storage resources.
+
+In this thesis, we study the problem of efficiently executing data-intensive SWfs in
+a multisite cloud, where each site has its own cluster, data and programs.
+Most SWfMSs have been designed for computer clusters or grids, and some have been extended
+to operate in the cloud, but only for single site.
+To address the problem in the multisite case, we propose a distributed and parallel
+approach that leverages the resources available at different cloud sites.
+To exploit parallelism, we use an algebraic approach, which allows expressing SWf activities
+using operators and automatically transforming them into multiple tasks.
+
+The main contribution is a multisite architecture for SWfMSs and distributed techniques to
+execute SWfs.
+The main techniques consist of SWf partitioning algorithms, a dynamic VM provisioning algorithm, an
+activity scheduling algorithm and a task scheduling algorithm. 
+SWf partitioning algorithms partition a SWf to several fragments, each
+to be executed at a different cloud site.
+The VM provisioning algorithm is used to dynamically create an optimal combination of VMs
+for executing workflow fragments at each cloud site.
+%but what is specific about the dynamic VM algorithm? doesn't it
+%generate the optimal number of VMs?
+%no only the number by also the types. So I call it as combination
+The activity scheduling algorithm distributes the SWf fragments to the
+cloud sites based on a multi-objective
+cost model, which combines both  execution time and monetary cost.
+The task scheduling algorithm directly distributes tasks among different cloud sites while
+achieving load balancing at each site. 
+Our experiments show that our approach can reduce considerably
+the overall cost of SWf execution in a multisite cloud.
+
+
+
+\abstractsection{Title in English}
+\begin{quote}
+  \textit{Multisite Management of Scientific Workflows in the Cloud}
+\end{quote}
+
+\abstractsection{Keywords}
+
+\begin{itemize}
+ \item Scientific workflow
+ \item Scientific workflow management system
+ \item Multisite cloud
+ \item Scheduling
+
+\end{itemize}
+
