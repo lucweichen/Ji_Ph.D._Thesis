@@ -1,0 +1,126 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: PHD-Manuscript.aux
+A level-1 auxiliary file: Abstract/Act.aux
+A level-1 auxiliary file: Abstract/Resume.aux
+A level-1 auxiliary file: Abstract/Abstract.aux
+A level-1 auxiliary file: Lab/Lab.aux
+A level-1 auxiliary file: Abstract/French.aux
+A level-1 auxiliary file: Intro/MMDSWC.aux
+A level-1 auxiliary file: StateOfTheArt/PSWC_J.aux
+A level-1 auxiliary file: SWEMC/SWEMC.aux
+A level-1 auxiliary file: provisioning/WFSMC.aux
+A level-1 auxiliary file: Multio/WFSMC.aux
+A level-1 auxiliary file: FGTS/FGTSMCPS.aux
+A level-1 auxiliary file: conclusion/Conclusions.aux
+The style file: acm.bst
+Database file #1: My_Library.bib
+Warning--entry type for "Belhajjame2011" isn't style-file defined
+--line 145 of file My_Library.bib
+Warning--entry type for "Montage" isn't style-file defined
+--line 1257 of file My_Library.bib
+Repeated entry---line 1776 of file My_Library.bib
+ : @article{Plankensteiner2013
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1807 of file My_Library.bib
+ : @article{Zhang2010
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1852 of file My_Library.bib
+ : @inproceedings{Altintas2004
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1881 of file My_Library.bib
+ : @inproceedings{Yildiz2009
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Azure" isn't style-file defined
+--line 2148 of file My_Library.bib
+Warning--entry type for "dblp" isn't style-file defined
+--line 2153 of file My_Library.bib
+Warning--entry type for "VMA" isn't style-file defined
+--line 2158 of file My_Library.bib
+Warning--entry type for "VMB" isn't style-file defined
+--line 2163 of file My_Library.bib
+Warning--entry type for "ComputingCapacity" isn't style-file defined
+--line 2265 of file My_Library.bib
+Warning--entry type for "Oma" isn't style-file defined
+--line 2293 of file My_Library.bib
+Warning--I'm ignoring Oma's extra "howpublished" field
+--line 2295 of file My_Library.bib
+Warning--entry type for "OmaGroup" isn't style-file defined
+--line 2299 of file My_Library.bib
+Warning--entry type for "AzureServiceBus" isn't style-file defined
+--line 2368 of file My_Library.bib
+Warning--entry type for "AzureVM" isn't style-file defined
+--line 2373 of file My_Library.bib
+Repeated entry---line 2378 of file My_Library.bib
+ : @article{Oliveira2013
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2400 of file My_Library.bib
+ : @misc{montage
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2927 of file My_Library.bib
+ : @article{Deelman2009
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2948 of file My_Library.bib
+ : @article{Liu2015
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2956 of file My_Library.bib
+ : @article{Deelman2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2969 of file My_Library.bib
+ : @article{Ogasawara2013
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3072 of file My_Library.bib
+ : @inproceedings{Liu2016
+ :                       ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3163 of file My_Library.bib
+ : 
+ : @inproceedings{montagedegree,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 3226 of file My_Library.bib
+ : @inproceedings{Deelman2008
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3355 of file My_Library.bib
+ : @misc{alice
+ :            ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in alice
+Warning--to sort, need author or key in Montage
+Warning--to sort, need author or key in grid5000
+Warning--to sort, need author or key in MicrosoftAzure
+Warning--to sort, need author or key in AmazonCloud
+Warning--to sort, need author or key in PegasusUserGuide
+Warning--to sort, need author or key in Azure
+Warning--to sort, need author or key in dblp
+Warning--to sort, need author or key in VMA
+Warning--to sort, need author or key in VMB
+Warning--to sort, need author or key in ComputingCapacity
+Warning--to sort, need author or key in Oma
+Warning--to sort, need author or key in OmaGroup
+Warning--to sort, need author or key in AzureServiceBus
+Warning--to sort, need author or key in AzureVM
+Warning--empty publisher in Arkoudas2004
+Warning--empty publisher in A.R.Gonccalves2012
+Warning--empty publisher in Gorlach2011
+Warning--empty institution in Hiden2010
+Warning--empty publisher in Hume2012
+Warning--empty institution in Liu2014a
+Warning--can't use both volume and number fields in Mattoso2010
+Warning--empty publisher in Mattoso2010
+Warning--empty publisher in Ocana2011
+Warning--empty publisher in Ocana2012
+Warning--empty publisher in Oinn2007
+Warning--empty booktitle in Sandberg1988
+Warning--empty publisher in Sandberg1988
+Warning--empty publisher in Sardina2010
+(There were 14 error messages)

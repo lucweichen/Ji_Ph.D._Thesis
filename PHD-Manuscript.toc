@@ -1,0 +1,129 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble }{}
+\select@language {english}
+\contentsline {chapter}{Acknowledgments}{iii}{chapter*.1}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e}}{v}{chapter*.2}
+\select@language {french}
+\contentsline {chapter}{Abstract}{vii}{chapter*.3}
+\select@language {english}
+\select@language {french}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e} \IeC {\'E}tendu}{xi}{chapter*.4}
+\select@language {french}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Thesis Context}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contributions}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Organization of the Thesis}{6}{section.1.3}
+\contentsline {paragraph}{Chapter \ref {State}: State Of The Art.}{7}{section.1.3}
+\contentsline {paragraph}{Chapter \ref {SWPMC}: SWf Partitioning.}{7}{section.1.3}
+\contentsline {paragraph}{Chapter \ref {MOVMPSWC}: VM Provisioning for a single site cloud.}{7}{section.1.3}
+\contentsline {paragraph}{Chapter \ref {MOSSWMC}: Multi-objective Fragment scheduling.}{7}{section.1.3}
+\contentsline {paragraph}{Chapter \ref {SWSPSMC}: Task Scheduling with Provenance Support.}{8}{section.1.3}
+\contentsline {paragraph}{Chapter \ref {ch:conclusion}: Conclusion.}{8}{section.1.3}
+\contentsline {chapter}{\numberline {2}State of the Art}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview and Motivations}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Scientific Workflow Management }{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Basic Concepts}{11}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Scientific Workflows}{11}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Scientific Workflow Life Cycle}{12}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Scientific Workflow Management Systems}{13}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Scientific Workflow Examples}{13}{subsubsection.2.2.1.4}
+\contentsline {subsection}{\numberline {2.2.2}Functional Architecture of SWfMSs}{16}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Presentation Layer}{16}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}User Services Layer}{18}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}WEP Generation Layer}{20}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}WEP Execution Layer}{22}{subsubsection.2.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.2.5}Infrastructure Layer}{23}{subsubsection.2.2.2.5}
+\contentsline {subsection}{\numberline {2.2.3}Techniques for Data-intensive Scientific Workflows}{24}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Parallel Execution in SWfMSs}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Scientific Workflow Parallelism}{28}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Coarse-Grained Parallelism}{28}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Fine-Grained Parallelism}{28}{subsubsection.2.3.1.2}
+\contentsline {subsection}{\numberline {2.3.2}Scientific Workflow Scheduling}{31}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Task Clustering}{32}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Static Scheduling}{32}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Dynamic Scheduling}{33}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Hybrid Scheduling}{34}{subsubsection.2.3.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.5}Scheduling Optimization Algorithms}{34}{subsubsection.2.3.2.5}
+\contentsline {subsubsection}{\numberline {2.3.2.6}Conclusion}{35}{subsubsection.2.3.2.6}
+\contentsline {section}{\numberline {2.4}SWfMS in a Multisite Cloud}{35}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Cloud Computing}{36}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Multisite Management in the Cloud}{37}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Data Storage in the Cloud}{38}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}File Systems}{39}{subsubsection.2.4.3.1}
+\contentsline {subsection}{\numberline {2.4.4}Scientific Workflow Execution in the Cloud}{41}{subsection.2.4.4}
+\contentsline {subsubsection}{\numberline {2.4.4.1}Execution at a Single Cloud Site}{42}{subsubsection.2.4.4.1}
+\contentsline {subsubsection}{\numberline {2.4.4.2}Execution in a Multisite Cloud}{43}{subsubsection.2.4.4.2}
+\contentsline {subsection}{\numberline {2.4.5}Conclusion and Remarks}{44}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Overview of Existing Solutions}{44}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Parallel Processing Frameworks}{44}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}SWfMS}{47}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Pegasus}{48}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Swift}{51}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}Kepler}{51}{subsubsection.2.5.2.3}
+\contentsline {subsubsection}{\numberline {2.5.2.4}Taverna}{53}{subsubsection.2.5.2.4}
+\contentsline {subsubsection}{\numberline {2.5.2.5}Chiron}{54}{subsubsection.2.5.2.5}
+\contentsline {subsubsection}{\numberline {2.5.2.6}Galaxy}{55}{subsubsection.2.5.2.6}
+\contentsline {subsubsection}{\numberline {2.5.2.7}Triana}{55}{subsubsection.2.5.2.7}
+\contentsline {subsubsection}{\numberline {2.5.2.8}Askalon}{56}{subsubsection.2.5.2.8}
+\contentsline {subsubsection}{\numberline {2.5.2.9}WS-PGRADE/gUSE}{56}{subsubsection.2.5.2.9}
+\contentsline {subsection}{\numberline {2.5.3}Concluding Remarks}{58}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Conclusion}{58}{section.2.6}
+\contentsline {chapter}{\numberline {3}Scientific Workflow Partitioning in a Multisite Cloud}{61}{chapter.3}
+\contentsline {section}{\numberline {3.1}Overview of the Proposal and Motivations}{61}{section.3.1}
+\contentsline {section}{\numberline {3.2}Related Work}{63}{section.3.2}
+\contentsline {section}{\numberline {3.3}System Model}{63}{section.3.3}
+\contentsline {section}{\numberline {3.4}Use Case: Buzz Workflow}{64}{section.3.4}
+\contentsline {section}{\numberline {3.5}Workflow Partitioning Techniques}{67}{section.3.5}
+\contentsline {section}{\numberline {3.6}Validation}{69}{section.3.6}
+\contentsline {section}{\numberline {3.7}Conclusion}{71}{section.3.7}
+\contentsline {chapter}{\numberline {4}VM Provisioning of Scientific Workflows in a Single Site Cloud}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Motivations and Overview}{73}{section.4.1}
+\contentsline {section}{\numberline {4.2}Multi-objective Cost Model}{75}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Time Cost}{75}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Monetary Cost}{77}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Single Site VM Provisioning}{78}{section.4.3}
+\contentsline {section}{\numberline {4.4}Use Case}{81}{section.4.4}
+\contentsline {section}{\numberline {4.5}Experimental Evaluation}{81}{section.4.5}
+\contentsline {section}{\numberline {4.6}Conclusion}{88}{section.4.6}
+\contentsline {chapter}{\numberline {5}Multi-Objective Scheduling of Scientific Workflows in a Multisite Cloud}{89}{chapter.5}
+\contentsline {section}{\numberline {5.1}Overview and Motivations}{89}{section.5.1}
+\contentsline {section}{\numberline {5.2}Related Work}{91}{section.5.2}
+\contentsline {section}{\numberline {5.3}Problem Definition}{93}{section.5.3}
+\contentsline {section}{\numberline {5.4}Multisite SWfMS Architecture}{95}{section.5.4}
+\contentsline {section}{\numberline {5.5}Multi-objective Optimization}{96}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Multi-objective Cost Model}{96}{subsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.1.1}Time Cost}{97}{subsubsection.5.5.1.1}
+\contentsline {subsubsection}{\numberline {5.5.1.2}Monetary Cost}{99}{subsubsection.5.5.1.2}
+\contentsline {subsection}{\numberline {5.5.2}Cost Estimation}{101}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Fragment Scheduling}{101}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Use Case}{101}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Scheduling approaches}{102}{subsection.5.6.2}
+\contentsline {subsubsection}{\numberline {5.6.2.1}Data Location Based Scheduling}{104}{subsubsection.5.6.2.1}
+\contentsline {subsubsection}{\numberline {5.6.2.2}Site Greedy Scheduling}{104}{subsubsection.5.6.2.2}
+\contentsline {subsubsection}{\numberline {5.6.2.3}Activity Greedy Scheduling}{105}{subsubsection.5.6.2.3}
+\contentsline {subsubsection}{\numberline {5.6.2.4}Solution analysis}{108}{subsubsection.5.6.2.4}
+\contentsline {section}{\numberline {5.7}Experimental Evaluation}{110}{section.5.7}
+\contentsline {section}{\numberline {5.8}Conclusion}{122}{section.5.8}
+\contentsline {chapter}{\numberline {6}Task Scheduling with Provenance Support in Multisite Clouds}{123}{chapter.6}
+\contentsline {section}{\numberline {6.1}Proposal Overview and Motivations}{123}{section.6.1}
+\contentsline {section}{\numberline {6.2}Related Work}{125}{section.6.2}
+\contentsline {section}{\numberline {6.3}Problem Definition}{126}{section.6.3}
+\contentsline {section}{\numberline {6.4}System Design}{128}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Single Site Chiron}{128}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Multisite Chiron}{130}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Task Scheduling}{132}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Single Site Task Scheduling}{132}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Multisite Task Scheduling}{132}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Complexity}{135}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}Execution Time Estimation}{136}{subsection.6.5.4}
+\contentsline {section}{\numberline {6.6}Experimental Evaluation}{137}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}SWf Use Cases}{137}{subsection.6.6.1}
+\contentsline {subsubsection}{\numberline {6.6.1.1}Buzz Workflow}{138}{subsubsection.6.6.1.1}
+\contentsline {subsubsection}{\numberline {6.6.1.2}Montage Workflow}{138}{subsubsection.6.6.1.2}
+\contentsline {subsection}{\numberline {6.6.2}Intersite Communication}{139}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}Experiments}{139}{subsection.6.6.3}
+\contentsline {section}{\numberline {6.7}Conclusion}{144}{section.6.7}
+\contentsline {chapter}{\numberline {7}Conclusions}{147}{chapter.7}
+\contentsline {section}{\numberline {7.1}Contributions}{147}{section.7.1}
+\contentsline {section}{\numberline {7.2}Directions for Future Work}{151}{section.7.2}
+\contentsline {chapter}{Bibliography}{153}{chapter*.78}

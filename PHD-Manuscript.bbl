@@ -1,0 +1,1287 @@
+\begin{thebibliography}{100}
+
+\bibitem{alice}
+{Alice Collaboration}.
+\newblock \url{http://aliceinfo.cern.ch/general/index.html}.
+
+\bibitem{AzureServiceBus}
+Azure service bus.
+\newblock \url{http://azure.microsoft.com/en-us/services/service-bus/}.
+
+\bibitem{ComputingCapacity}
+Computing capacity for a {CPU}.
+\newblock
+  \url{http://en.community.dell.com/techcenter/high-performance-computing/w/wiki/2329}.
+
+\bibitem{dblp}
+{DBLP} {C}omputer {S}cience {B}ibliography.
+\newblock http://dblp.uni-trier.de/.
+
+\bibitem{Azure}
+Microsoft {A}zure.
+\newblock http://azure.microsoft.com.
+
+\bibitem{Montage}
+Montage.
+\newblock \url{http://montage.ipac.caltech.edu/docs/gridtools.html}.
+
+\bibitem{Oma}
+Oma genome database.
+\newblock \url{http://omabrowser.org/All/eukaryotes.cdna.fa.gz}.
+
+\bibitem{AzureVM}
+Parameters of different types of vms in microsoft {A}zure.
+\newblock
+  \url{https://azure.microsoft.com/en-us/pricing/details/virtual-machines/}.
+
+\bibitem{OmaGroup}
+Sequence identifier.
+\newblock \url{http://omabrowser.org/All/oma-groups.txt.gz}.
+
+\bibitem{VMB}
+{VM} bandwidth in {A}zure.
+\newblock
+  http://windowsazureguide.net/tag/auzre-virtual-machines-sizes-bandwidth/.
+
+\bibitem{VMA}
+{VM} parameters in {A}zure.
+\newblock http://msdn.microsoft.com/en-us/library/azure/dn197896.aspx.
+
+\bibitem{AmazonCloud}
+Amazon cloud.
+\newblock \url{http://aws.amazon.com/}, 2015.
+
+\bibitem{grid5000}
+Grid'5000 project.
+\newblock \url{https://www.grid5000.fr/mediawiki/index.php}, 2015.
+
+\bibitem{MicrosoftAzure}
+Microsoft {A}zure cloud.
+\newblock \url{http://azure.microsoft.com/}, 2015.
+
+\bibitem{PegasusUserGuide}
+Pegasus 4.4.1 user guide.
+\newblock \url{https://pegasus.isi.edu/wms/docs/latest/}, 2015.
+
+\bibitem{Abouelhoda2012}
+{\sc Abouelhoda, M., Issa, S., and Ghanem, M.}
+\newblock Tavaxy: Integrating taverna and galaxy workflows with cloud computing
+  support.
+\newblock {\em BMC Bioinformatics 13}, 1 (2012), 77.
+
+\bibitem{Afgan2010}
+{\sc Afgan, E., Baker, D., Coraor, N., Chapman, B., Nekrutenko, A., and Taylor,
+  J.}
+\newblock Galaxy cloudman: delivering cloud compute clusters.
+\newblock {\em BMC Bioinformatics 11}, Suppl 12 (2010), S4.
+
+\bibitem{Albrecht2012}
+{\sc Albrecht, M., Donnelly, P., Bui, P., and Thain, D.}
+\newblock Makeflow: A portable abstraction for data intensive computing on
+  clusters, clouds, and grids.
+\newblock In {\em 1st ACM SIGMOD Workshop on Scalable Workflow Execution
+  Engines and Technologies\/} (2012), pp.~1:1--1:13.
+
+\bibitem{Altintas2006}
+{\sc Altintas, I., Barney, O., and Jaeger-Frank, E.}
+\newblock Provenance collection support in the kepler scientific workflow
+  system.
+\newblock In {\em Int. Conf. on Provenance and Annotation of Data\/} (2006),
+  pp.~118--132.
+
+\bibitem{Altintas2004a}
+{\sc Altintas, I., Berkley, C., Jaeger, E., Jones, M., Ludascher, B., and Mock,
+  S.}
+\newblock Kepler: an extensible system for design and execution of scientific
+  workflows.
+\newblock In {\em 16th Int. Conf. on Scientific and Statistical Database
+  Management (SSDBM)\/} (2004), pp.~423--424.
+
+\bibitem{Altintas2004}
+{\sc Altintas, I., Berkley, C., Jaeger, E., Jones, M., Ludäscher, B., and
+  Mock, S.}
+\newblock Kepler: Towards a {Grid-Enabled} system for scientific workflows.
+\newblock {\em The Workflow in Grid Systems Workshop in {GGF10-The} 10th Global
+  Grid Forum\/} (2004).
+
+\bibitem{Anglano2008}
+{\sc Anglano, C., and Canonico, M.}
+\newblock Scheduling algorithms for multiple bag-of-task applications on
+  desktop grids: A knowledge-free approach.
+\newblock In {\em 22nd IEEE Int. Symposium on Parallel and Distributed
+  Processing (IPDPS)\/} (2008), pp.~1--8.
+
+\bibitem{Arkoudas2004}
+{\sc Arkoudas, K., Zee, K., Kuncak, V., and Rinard, M.}
+\newblock Verifying a file system implementation.
+\newblock In {\em 6th Int. Conf. on Formal Engineering Methods (ICFEM)},
+  vol.~3308. 2004, pp.~373--390.
+
+\bibitem{Balasko2014}
+{\sc Balask\'{o}, {\'{A}}.}
+\newblock Workflow concept of ws-pgrade/guse.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~33--50.
+
+\bibitem{Barker2007}
+{\sc Barker, A., and Hemert, J.~V.}
+\newblock Scientific workflow: A survey and research directions.
+\newblock In {\em 7th Int. Conf. on Parallel Processing and Applied
+  Mathematics\/} (2008), pp.~746--753.
+
+\bibitem{Belhajjame2011}
+{\sc Belhajjame, K., Cresswell, S., Gil, Y., Golden, R., Groth, P., Klyne, G.,
+  McCusker, J., Miles, S., Myers, J., and Sahoo, S.}
+\newblock The prov data model and abstract syntax notation.
+\newblock \url{http://www.w3.org/TR/2011/WD-prov-dm-20111215/}, 2011.
+
+\bibitem{Bergmann2011}
+{\sc Bergmann, R., and Gil, Y.}
+\newblock Retrieval of semantic workflows with knowledge intensive similarity
+  measures.
+\newblock In {\em 19th Int. Conf. on Case-Based Reasoning Research and
+  Development\/} (2011), pp.~17--31.
+
+\bibitem{Bhuvaneshwar2015}
+{\sc Bhuvaneshwar, K., Sulakhe, D., Gauba, R., Rodriguez, A., Madduri, R.,
+  Dave, U., Lacinski, L., Foster, I., Gusev, Y., and Madhavan, S.}
+\newblock A case study for cloud based high throughput analysis of \{NGS\} data
+  using the globus genomics system.
+\newblock {\em Computational and Structural Biotechnology Journal 13\/} (2015),
+  64 -- 74.
+
+\bibitem{Blagodurov2015}
+{\sc Blagodurov, S., Fedorova, A., Vinnik, E., Dwyer, T., and Hermenier, F.}
+\newblock Multi-objective job placement in clusters.
+\newblock In {\em Proceedings of the Int. Conf. for High Performance Computing,
+  Networking, Storage and Analysis, {SC}\/} (2015), pp.~66:1--66:12.
+
+\bibitem{Blythe2005}
+{\sc Blythe, J., Jain, S., Deelman, E., Gil, Y., Vahi, K., Mandal, A., and
+  Kennedy, K.}
+\newblock Task scheduling strategies for workflow-based applications in grids.
+\newblock In {\em 5th IEEE Int. Symposium on Cluster Computing and the Grid
+  (CCGrid)\/} (2005), pp.~759--767.
+
+\bibitem{Bouganim2000}
+{\sc Bouganim, L., Fabret, F., Mohan, C., and Valduriez, P.}
+\newblock Dynamic query scheduling in data integration systems.
+\newblock In {\em International Conference on Data Engineering (ICDE)\/}
+  (2000), pp.~425--434.
+
+\bibitem{Brandic2011}
+{\sc Brandic, I., and Dustdar, S.}
+\newblock Grid vs cloud - {A} technology comparison.
+\newblock {\em it - Information Technology 53}, 4 (2011), 173--179.
+
+\bibitem{Bux2013}
+{\sc Bux, M., and Leser, U.}
+\newblock Parallelization in scientific workflow management systems.
+\newblock {\em The Computing Research Repository (CoRR) abs/1303.7195\/}
+  (2013).
+
+\bibitem{Cala2014}
+{\sc Cala, J., Xu, Y., Wijaya, E., and Missier, P.}
+\newblock From scripted hpc-based {NGS} pipelines to workflows on the cloud.
+\newblock In {\em 14th {IEEE/ACM} Int. Symposium on Cluster, Cloud and Grid
+  Computing (CCGrid)\/} (2014), pp.~694--700.
+
+\bibitem{Carpenter2000}
+{\sc Carpenter, B., Getov, V., Judd, G., Skjellum, A., and Fox, G.}
+\newblock Mpj: Mpi-like message passing for java.
+\newblock {\em Concurrency and Computation: Practice and Experience 12}, 11
+  (2000), 1019--1038.
+
+\bibitem{Chang2002}
+{\sc Chang, D., Son, J.~H., and Kim, M.}
+\newblock Critical path identification in the context of a workflow.
+\newblock {\em Information {\&} Software Technology 44}, 7 (2002), 405--417.
+
+\bibitem{Chen2012}
+{\sc Chen, W., and Deelman, E.}
+\newblock Integration of workflow partitioning and resource provisioning.
+\newblock In {\em IEEE/ACM Int. Symposium on Cluster Computing and the Grid
+  (CCGRID)\/} (2012), pp.~764--768.
+
+\bibitem{Chen2012a}
+{\sc Chen, W., and Deelman, E.}
+\newblock Partitioning and scheduling workflows across multiple sites with
+  storage constraints.
+\newblock In {\em 9th Int. Conf. on Parallel Processing and Applied Mathematics
+  - Volume Part II\/} (2012), vol.~7204, pp.~11--20.
+
+\bibitem{Chen2013}
+{\sc Chen, W., Silva, R.~D., Deelman, E., and Sakellariou, R.}
+\newblock Balanced task clustering in scientific workflows.
+\newblock In {\em IEEE 9th Int. Conf. on e-Science\/} (2013), pp.~188--195.
+
+\bibitem{Chervenak2012}
+{\sc Chervenak, A.~L., Smith, D.~E., Chen, W., and Deelman, E.}
+\newblock Integrating policy with scientific workflow management for
+  data-intensive applications.
+\newblock In {\em Supercomputing (SC) Companion: High Performance Computing,
+  Networking Storage and Analysis\/} (2012), pp.~140--149.
+
+\bibitem{Chirigati2012}
+{\sc Chirigati, F., Silva, V., Ogasawara, E., de~Oliveira, D., Dias, J., Porto,
+  F., Valduriez, P., and Mattoso, M.}
+\newblock Evaluating parameter sweep workflows in high performance computing.
+\newblock In {\em 1st ACM SIGMOD Workshop on Scalable Workflow Execution
+  Engines and Technologies\/} (2012), pp.~2:1--2:10.
+
+\bibitem{Chowdhury2011}
+{\sc Chowdhury, M., Zaharia, M., Ma, J., Jordan, M.~I., and Stoica, I.}
+\newblock Managing data transfers in computer clusters with orchestra.
+\newblock {\em ACM SIGCOMM Conf. on Applications, Technologies, Architectures,
+  and Protocols for Computer Communications 41}, 4 (2011), 98--109.
+
+\bibitem{Coalition1999}
+{\sc Coalition, W.~M.}
+\newblock Workflow management coalition terminology and glossary, 1999.
+
+\bibitem{Cohen-Boulakia2014}
+{\sc Cohen-Boulakia, S., Chen, J., Missier, P., Goble, C.~A., Williams, A.~R.,
+  and Froidevaux, C.}
+\newblock Distilling structure in taverna scientific workflows: a refactoring
+  approach.
+\newblock {\em BMC Bioinformatics 15}, S-1 (2014), S12.
+
+\bibitem{Costa2012}
+{\sc Costa, F., de~Oliveira, D., Ocala, K., Ogasawara, E., Dias, J., and
+  Mattoso, M.}
+\newblock Handling failures in parallel scientific workflows using clouds.
+\newblock In {\em Supercomputing (SC) Companion: High Performance Computing,
+  Networking Storage and Analysis\/} (2012), pp.~129--139.
+
+\bibitem{Costa2013}
+{\sc Costa, F., Silva, V., de~Oliveira, D., Oca{\~n}a, K. A. C.~S., Ogasawara,
+  E.~S., Dias, J., and Mattoso, M.}
+\newblock Capturing and querying workflow runtime provenance with prov: a
+  practical approach.
+\newblock In {\em EDBT/ICDT Workshops\/} (2013), pp.~282--289.
+
+\bibitem{Coutinho2014}
+{\sc Coutinho, R., Drummond, L., Frota, Y., de~Oliveira, D., and Ocana, K.}
+\newblock Evaluating grasp-based cloud dimensioning for comparative genomics: A
+  practical approach.
+\newblock In {\em 2014 IEEE Int. Conf. on Cluster Computing (CLUSTER)\/}
+  (2014), pp.~371--379.
+
+\bibitem{Crawl2011}
+{\sc Crawl, D., Wang, J., and Altintas, I.}
+\newblock Provenance for mapreduce-based data-intensive workflows.
+\newblock In {\em 6th Workshop on Workflows in Support of Large-scale
+  Science\/} (2011), pp.~21--30.
+
+\bibitem{Critchlow2011}
+{\sc Critchlow, T., and Jr., G.~C.}
+\newblock Supercomputing and scientific workflows gaps and requirements.
+\newblock In {\em World Congress on Services\/} (2011), pp.~208--211.
+
+\bibitem{Oliveira2012a}
+{\sc de~Oliveira, D., Oca{\~n}a, K. A. C.~S., Bai{\~a}o, F., and Mattoso, M.}
+\newblock A provenance-based adaptive scheduling heuristic for parallel
+  scientific workflows in clouds.
+\newblock {\em Journal of Grid Computing 10}, 3 (2012), 521--552.
+
+\bibitem{Oliveira2010}
+{\sc de~Oliveira, D., Ogasawara, E., Bai{\~a}o, F., and Mattoso, M.}
+\newblock Scicumulus: A lightweight cloud middleware to explore many task
+  computing paradigm in scientific workflows.
+\newblock In {\em 3rd Int. Conf. on Cloud Computing (CLOUD)\/} (2010),
+  pp.~378--385.
+
+\bibitem{Oliveira2012}
+{\sc de~Oliveira, D., Ogasawara, E., Oca{\~n}a, K., Bai{\~a}o, F., and Mattoso,
+  M.}
+\newblock An adaptive parallel execution strategy for cloud-based scientific
+  workflows.
+\newblock {\em Concurrency and Computation: Practice \& Experience 24}, 13
+  (2012), 1531--1550.
+
+\bibitem{Oliveira2013}
+{\sc de~Oliveira, D., Viana, V., Ogasawara, E., Ocana, K., and Mattoso, M.}
+\newblock Dimensioning the virtual cluster for parallel scientific workflows in
+  clouds.
+\newblock In {\em 4th ACM Workshop on Scientific Cloud Computing\/} (2013),
+  pp.~5--12.
+
+\bibitem{Oliveira13}
+{\sc de~Oliveira, D., Viana, V., Ogasawara, E.~S., Oca{\~{n}}a, K. A. C.~S.,
+  and Mattoso, M.}
+\newblock Dimensioning the virtual cluster for parallel scientific workflows in
+  clouds.
+\newblock In {\em ScienceCloud'13, Proceedings of the 4th {ACM} {HPDC} Workshop
+  on Scientific Cloud Computing\/} (2013), pp.~5--12.
+
+\bibitem{Dean2004}
+{\sc Dean, J., and Ghemawat, S.}
+\newblock Mapreduce: Simplified data processing on large clusters.
+\newblock In {\em 6th Symposium on Operating System Design and Implementation
+  (OSDI 2004)\/} (2004), pp.~137--150.
+
+\bibitem{Deelman2006z}
+{\sc Deelman, E., Callaghan, S., Field, E., Francoeur, H., Graves, R., Gupta,
+  N., Gupta, V., Jordan, T.~H., Kesselman, C., Maechling, P., Mehringer, J.,
+  Mehta, G., Okaya, D., Vahi, K., and Zhao, L.}
+\newblock Managing large-scale workflow execution from resource provisioning to
+  provenance tracking: The cybershake example.
+\newblock In {\em Second Int. Conf. on e-Science and Grid Technologies\/}
+  (2006), p.~14.
+
+\bibitem{Deelman2009}
+{\sc Deelman, E., Gannon, D., Shields, M., and Taylor, I.}
+\newblock Workflows and e-science: An overview of workflow system features and
+  capabilities.
+\newblock {\em Future Generation Computer Systems 25}, 5 (2009), 528--540.
+
+\bibitem{Deelman2012}
+{\sc Deelman, E., Juve, G., and Berriman, G.~B.}
+\newblock Using clouds for science, is it just kicking the can down the road?
+\newblock In {\em Cloud Computing and Services Science (CLOSER), 2nd Int. Conf.
+  on Cloud Computing and Services Science\/} (2012), pp.~127--134.
+
+\bibitem{Deelman2008}
+{\sc Deelman, E., Singh, G., Livny, M., Berriman, B., and Good, J.}
+\newblock The cost of doing science on the cloud: The montage example.
+\newblock In {\em ACM/IEEE Conf. on High Performance Computing\/} (2008),
+  pp.~1--12.
+
+\bibitem{Deelman2005}
+{\sc Deelman, E., Singh, G., Su, M.-H., Blythe, J., Gil, Y., Kesselman, C.,
+  Mehta, G., Vahi, K., Berriman, G.~B., Good, J., Laity, A., Jacob, J.~C., and
+  Katz, D.~S.}
+\newblock Pegasus: A framework for mapping complex scientific workflows onto
+  distributed systems.
+\newblock {\em Scientific Programming 13}, 3 (2005), 219--237.
+
+\bibitem{Deelman2014}
+{\sc Deelman, E., Vahi, K., Juve, G., Rynge, M., Callaghan, S., Maechling,
+  P.~J., Mayani, R., Chen, W., d.~Silva, R.~F., Livny, M., and Wenger, K.}
+\newblock Pegasus: a workflow management system for science automation.
+\newblock {\em Future Generation Computer Systems\/} (2014).
+
+\bibitem{Deng2011}
+{\sc Deng, K., Kong, L., Song, J., Ren, K., and Yuan, D.}
+\newblock A weighted k-means clustering based co-scheduling strategy towards
+  efficient execution of scientific workflows in collaborative cloud
+  environments.
+\newblock In {\em IEEE 9th Int. Conf. on Dependable, Autonomic and Secure
+  Computing (DASC)\/} (2011), pp.~547--554.
+
+\bibitem{Dias2012}
+{\sc Dias, J., de~Oliveira, D., Mattoso, M., Ocana, K. A. C.~S., and Ogasawara,
+  E.}
+\newblock Discovering drug targets for neglected diseases using a
+  pharmacophylogenomic cloud workflow.
+\newblock In {\em IEEE 8th Int. Conf. on E-Science (e-Science)\/} (2012),
+  pp.~1--8.
+
+\bibitem{Dias2013}
+{\sc Dias, J., Ogasawara, E.~S., de~Oliveira, D., Porto, F., Valduriez, P., and
+  Mattoso, M.}
+\newblock Algebraic dataflows for big data analysis.
+\newblock In {\em IEEE Int. Conf. on Big Data\/} (2013), pp.~150--155.
+
+\bibitem{Duan2014}
+{\sc Duan, R., Prodan, R., and Li, X.}
+\newblock Multi-objective game theoretic schedulingof bag-of-tasks workflows on
+  hybrid clouds.
+\newblock {\em IEEE Transactions on Cloud Computing 2}, 1 (2014), 29--42.
+
+\bibitem{Emeakaroha13}
+{\sc Emeakaroha, V.~C., Maurer, M., Stern, P., Labaj, P.~P., Brandic, I., and
+  Kreil, D.~P.}
+\newblock Managing and optimizing bioinformatics workflows for data analysis in
+  clouds.
+\newblock {\em Journal of Grid Computing 11}, 3 (2013), 407--428.
+
+\bibitem{Etminani2007}
+{\sc Etminani, K., and Naghibzadeh, M.}
+\newblock A min-min max-min selective algorihtm for grid task scheduling.
+\newblock In {\em The Third IEEE/IFIP Int. Conf. in Central Asia on Internet
+  (ICI 2007)\/} (2007), pp.~1--7.
+
+\bibitem{Fahringer2007}
+{\sc Fahringer, T., Prodan, R., Duan, R., Hofer, J., Nadeem, F., Nerieri, F.,
+  Podlipnig, S., Qin, J., Siddiqui, M., Truong, H., Villazon, A., and
+  Wieczorek, M.}
+\newblock Askalon: A development and grid computing environment for scientific
+  workflows.
+\newblock In {\em Workflows for e-Science}. Springer, 2007, pp.~450--471.
+
+\bibitem{Fard2013}
+{\sc Fard, H.~M., Fahringer, T., and Prodan, R.}
+\newblock Budget-constrained resource provisioning for scientific applications
+  in clouds.
+\newblock In {\em IEEE 5th Int. Conf. on Cloud Computing Technology and Science
+  (CloudCom)\/} (2013), vol.~1, pp.~315--322.
+
+\bibitem{Fard2014}
+{\sc Fard, H.~M., Prodan, R., and Fahringer, T.}
+\newblock Multi-objective list scheduling of workflow applications in
+  distributed computing infrastructures.
+\newblock {\em Journal of Parallel and Distributed Computing 74}, 3 (2014),
+  2152--2165.
+
+\bibitem{Farkas2014}
+{\sc Farkas, Z., Hajnal, {\'{A}}., and Kacsuk, P.}
+\newblock Ws-pgrade/guse and clouds.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~97--109.
+
+\bibitem{Felsenstein1989}
+{\sc Felsenstein, J.}
+\newblock Phylip - phylogeny inference package (version 3.2).
+\newblock {\em Cladistics 5\/} (1989), 164--166.
+
+\bibitem{Foster2003}
+{\sc Foster, I., and Kesselman, C.}
+\newblock {\em The Grid 2: Blueprint for a New Computing Infrastructure}.
+\newblock Morgan Kaufmann Publishers Inc., 2003.
+
+\bibitem{Freire2008}
+{\sc Freire, J., Koop, D., Santos, E., and Silva, C.~T.}
+\newblock Provenance for computational tasks: A survey.
+\newblock {\em Computing in Science and Engineering 10}, 3 (2008), 11--21.
+
+\bibitem{Frey2001}
+{\sc Frey, J., Tannenbaum, T., Livny, M., Foster, I., and Tuecke, S.}
+\newblock Condor-g: a computation management agent for multi-institutional
+  grids.
+\newblock In {\em 10th IEEE Int. Symposium on High Performance Distributed
+  Computing\/} (2001), pp.~55--63.
+
+\bibitem{Gadelha2013}
+{\sc {Gadelha Jr.}, L. M.~R., Wilde, M., Mattoso, M., and Foster, I.}
+\newblock Provenance traces of the swift parallel scripting system.
+\newblock In {\em EDBT/ICDT Workshops\/} (2013), pp.~325--326.
+
+\bibitem{Ganga2013}
+{\sc Ganga, K., and Karthik, S.}
+\newblock A fault tolerent approach in scientific workflow systems based on
+  cloud computing.
+\newblock In {\em Int. Conf. on Pattern Recognition, Informatics and Mobile
+  Engineering (PRIME)\/} (2013), pp.~387--390.
+
+\bibitem{Garijo2014}
+{\sc Garijo, D., Alper, P., Belhajjame, K., Corcho, {\'{O}}., Gil, Y., and
+  Goble, C.~A.}
+\newblock Common motifs in scientific workflows: An empirical analysis.
+\newblock {\em Future Generation Computer Systems 36\/} (2014), 338--351.
+
+\bibitem{Gesing2014}
+{\sc Gesing, S., Kr\"{u}ger, J., Grunzke, R., de~la Garza, L., Herres-Pawlis,
+  S., and Hoffmann, A.}
+\newblock Molecular simulation grid (mosgrid): A science gateway tailored to
+  the molecular simulation community.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~151--165.
+
+\bibitem{Ghemawat2003}
+{\sc Ghemawat, S., Gobioff, H., and Leung, S.}
+\newblock The google file system.
+\newblock In {\em 19th ACM Symposium on Operating Systems Principles\/} (2003),
+  pp.~29--43.
+
+\bibitem{Gil2006}
+{\sc Gil, Y., Kim, J., Ratnakar, V., and Deelman, E.}
+\newblock Wings for pegasus: A semantic approach to creating very large
+  scientific workflows.
+\newblock In {\em OWLED*06 Workshop on OWL: Experiences and Directions\/}
+  (2006), vol.~216.
+
+\bibitem{Goecks2010}
+{\sc Goecks, J., Nekrutenko, A., and Taylor, J.}
+\newblock Galaxy: a comprehensive approach for supporting accessible,
+  reproducible, and transparent computational research in the life sciences.
+\newblock {\em Genome Biology 11}, 8 (2010), 1--13.
+
+\bibitem{Goecks2012}
+{\sc Goecks, J., Nekrutenko, A., and Taylor, J.}
+\newblock Lessons learned from galaxy, a web-based platform for high-throughput
+  genomic analyses.
+\newblock In {\em IEEE Int. Conf. on E-Science, e-Science\/} (2012), pp.~1--6.
+
+\bibitem{A.R.Gonccalves2012}
+{\sc Gon\c{c}alves, J. A.~R., Oliveira, D., Oca{\~n}a, K., Ogasawara, E., and
+  Mattoso, M.}
+\newblock Using domain-specific data to enhance scientific workflow steering
+  queries.
+\newblock In {\em Provenance and Annotation of Data and Processes}, vol.~7525.
+  2012, pp.~152--167.
+
+\bibitem{Gonzalez09}
+{\sc Gonzalez, L.~M., Rodero{-}Merino, L., Caceres, J., and Lindner, M.~A.}
+\newblock A break in the clouds: towards a cloud definition.
+\newblock {\em Computer Communication Review 39}, 1 (2009), 50--55.
+
+\bibitem{Gorlach2011}
+{\sc G{\"o}rlach, K., Sonntag, M., Karastoyanova, D., Leymann, F., and Reiter,
+  M.}
+\newblock Conventional workflow technology for scientific simulation.
+\newblock In {\em Guide to e-Science}. 2011, pp.~323--352.
+
+\bibitem{Gottdank2014}
+{\sc Gottdank, T.}
+\newblock Introduction to the ws-pgrade/guse science gateway framework.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~19--32.
+
+\bibitem{Gu2013}
+{\sc Gu, Y., Wu, C., Liu, X., and Yu, D.}
+\newblock Distributed throughput optimization for large-scale scientific
+  workflows under fault-tolerance constraint.
+\newblock {\em Journal of Grid Computing 11}, 3 (2013), 361--379.
+
+\bibitem{Gunter2011}
+{\sc Gunter, D., Deelman, E., Samak, T., Brooks, C., Goode, M., Juve, G.,
+  Mehta, G., Moraes, P., Silva, F., Swany, M., and Vahi, K.}
+\newblock Online workflow management and performance analysis with stampede.
+\newblock In {\em 7th Int. Conf. on Network and Service Management (CNSM)\/}
+  (2011), pp.~1--10.
+
+\bibitem{Hategan2011}
+{\sc Hategan, M., Wozniak, J., and Maheshwari, K.}
+\newblock Coasters: Uniform resource provisioning and access for clouds and
+  grids.
+\newblock In {\em 4th IEEE Int. Conf. on Utility and Cloud Computing\/} (2011),
+  pp.~114--121.
+
+\bibitem{Hernandez}
+{\sc Hernández, F., and Fahringer, T.}
+\newblock Towards workflow sharing and reusein the askalon grid environment.
+\newblock In {\em Proceedings of Cracow Grid Workshops (CGW)\/} (2008),
+  p.~111–119.
+
+\bibitem{Hiden2010}
+{\sc Hiden, H., Watson, P., Woodman, S., and Leahy, D.}
+\newblock e-science central: cloud-based e-science and its application to
+  chemical property modelling.
+\newblock Tchnical Report CS-TR-1227, 2010.
+
+\bibitem{Hiden2012}
+{\sc Hiden, H., Woodman, S., Watson, P., and Cala, J.}
+\newblock Developing cloud applications using the e-science central platform.
+\newblock {\em Philosophical Transactions of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences 371}, 1983 (2012).
+
+\bibitem{Holl2012}
+{\sc Holl, S., Zimmermann, O., and Hofmann-Apitius, M.}
+\newblock A new optimization phase for scientific workflow management systems.
+\newblock In {\em 8th IEEE Int. Conf. on E-Science\/} (2012), pp.~1--8.
+
+\bibitem{Horta2012}
+{\sc Horta, F., Dias, J., Ocana, K., de~Oliveira, D., Ogasawara, E., and
+  Mattoso, M.}
+\newblock Abstract: Using provenance to visualize data from large-scale
+  experiments.
+\newblock In {\em Supercomputing (SC): High Performance Computing, Networking
+  Storage and Analysis\/} (2012), pp.~1418--1419.
+
+\bibitem{Huedo2004}
+{\sc Huedo, E., Montero, R.~S., and Llorente, I.~M.}
+\newblock A framework for adaptive execution in grids.
+\newblock {\em Software - Practice and Experience (SPE) 34}, 7 (2004),
+  631--651.
+
+\bibitem{Hume2012}
+{\sc Hume, A.~C., Al-Hazmi, Y., Belter, B., Campowsky, K., Carril., L.~M.,
+  Carrozzo, G., Engen, V., Garc\'{i}a-P\'{e}rez, D., Ponsat\'{i}, J.~J.,
+  {u}bert, R.~K., Liang, Y., Rohr, C., and Seghbroeck, G.}
+\newblock Bonfire: A multi-cloud test facility for internet of services
+  experimentation.
+\newblock In {\em Testbeds and Research Infrastructure. Development of Networks
+  and Communities}, vol.~44. 2012, pp.~81--96.
+
+\bibitem{Isard2007}
+{\sc Isard, M., Budiu, M., Yu, Y., Birrell, A., and Fetterly, D.}
+\newblock Dryad: Distributed data-parallel programs from sequential building
+  blocks.
+\newblock In {\em 2nd ACM SIGOPS/EuroSys European Conf. on Computer Systems\/}
+  (2007), pp.~59--72.
+
+\bibitem{Jackson2012}
+{\sc Jackson, K.}
+\newblock {\em OpenStack Cloud Computing Cookbook}.
+\newblock Packt Publishing, 2012.
+
+\bibitem{Jacob2009}
+{\sc Jacob, J.~C., Katz, D.~S., Berriman, G.~B., Good, J.~C., Laity, A.~C.,
+  Deelman, E., Kesselman, C., Singh, G., Su, M.-H., Prince, T.~A., and
+  Williams, R.}
+\newblock Montage: a grid portal and software toolkit for science-grade
+  astronomical image mosaicking.
+\newblock {\em Int. Journal of Computational Science and Engineering 4}, 2
+  (2009), 73--87.
+
+\bibitem{Juve2011}
+{\sc Juve, G., and Deelman, E.}
+\newblock Scientific workflows in the cloud.
+\newblock In {\em Grids, Clouds and Virtualization}. Springer, 2011,
+  pp.~71--91.
+
+\bibitem{Juve2011a}
+{\sc Juve, G., and Deelman, E.}
+\newblock Wrangler: Virtual cluster provisioning for the cloud.
+\newblock In {\em 20th Int. Symposium on High Performance Distributed
+  Computing\/} (2011), pp.~277--278.
+
+\bibitem{Juve2013}
+{\sc Juve, G., Rynge, M., Deelman, E., Vockler, J.-S., and Berriman, G.}
+\newblock Comparing futuregrid, amazon ec2, and open science grid for
+  scientific workflows.
+\newblock {\em Computing in Science Engineering 15}, 4 (2013), 20--29.
+
+\bibitem{Kacsuk2011}
+{\sc Kacsuk, P.}
+\newblock P-grade portal family for grid infrastructures.
+\newblock {\em Concurrency and Computation: Practice and Experience 23}, 3
+  (2011), 235--245.
+
+\bibitem{Kacsuk2012}
+{\sc Kacsuk, P., Farkas, Z., Kozlovszky, M., Hermann, G., Balasko, A.,
+  Karoczkai, K., and Marton, I.}
+\newblock Ws-pgrade/guse generic dci gateway framework for a large variety of
+  user communities.
+\newblock {\em Journal of Grid Computing 10}, 4 (2012), 601--630.
+
+\bibitem{Karuna2012}
+{\sc Karuna, K., Mangala, N., Janaki, C., Shashi, S., and Subrata, C.}
+\newblock Galaxy workflow integration on garuda grid.
+\newblock In {\em IEEE Int. Workshop on Enabling Technologies: Infrastructure
+  for Collaborative Enterprises (WETICE)\/} (2012), pp.~194--196.
+
+\bibitem{Karypis1998}
+{\sc Karypis, G., and Kumar, V.}
+\newblock Multilevel algorithms for multi-constraint graph partitioning.
+\newblock In {\em ACM/IEEE Conf. on Supercomputing\/} (1998), pp.~1--13.
+
+\bibitem{Kim2008}
+{\sc Kim, J., Deelman, E., Gil, Y., Mehta, G., and Ratnakar, V.}
+\newblock Provenance trails in the wings-pegasus system.
+\newblock {\em Concurrency and Computation: Practice and Experience 20\/}
+  (2008), 587--597.
+
+\bibitem{Kiss2014}
+{\sc Kiss, T., Kacsuk, P., Lovas, R., Balaskó, {\'{A}}., Spinuso, A.,
+  Atkinson, M., D’Agostino, D., Danovaro, E., and Schiffers, M.}
+\newblock Ws-pgrade/guse in european projects.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~235--254.
+
+\bibitem{Kiss2014a}
+{\sc Kiss, T., Kacsuk, P., Tak\'{a}cs, E., Szab\'{o}, {\'{A}}., Tihanyi, P.,
+  and Taylor, S.}
+\newblock Commercial use of ws-pgrade/guse.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~271--286.
+
+\bibitem{Kocair2014}
+{\sc Kocair, {\c{C}}., {\c{S}}ener, C., and Akkaya, A.}
+\newblock Statistical seismology science gateway.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~167--180.
+
+\bibitem{Korf2003}
+{\sc Korf, I., Yandell, M., and Bedell, J.~A.}
+\newblock {\em BLAST - an essential guide to the basic local alignment search
+  tool}.
+\newblock O'Reilly, 2003.
+
+\bibitem{Kacsuk2014}
+{\sc Kozlovszky, M., Kar\'{o}czkai, K., M\'{a}rton, I., Kacsuk, P., and
+  Gottdank, T.}
+\newblock Dci bridge: Executing ws-pgrade workflows in distributed computing
+  infrastructures.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~51--67.
+
+\bibitem{Littauer2012}
+{\sc Littauer, R., Ram, K., Lud{\"{a}}scher, B., Michener, W., and Koskela, R.}
+\newblock Trends in use of scientific workflows: Insights from a public
+  repository and recommendations for best practice.
+\newblock {\em International Journal of Digital Curation ({IJDC}) 7}, 2 (2012),
+  92--100.
+
+\bibitem{Litzkow1988}
+{\sc Litzkow, M.~J., Livny, M., and Mutka, M.~W.}
+\newblock Condor-a hunter of idle workstations.
+\newblock In {\em 8th Int. Conf. on Distributed Computing Systems\/} (1988),
+  pp.~104--111.
+
+\bibitem{Liu2012}
+{\sc Liu, B., Sotomayor, B., Madduri, R., Chard, K., and Foster, I.}
+\newblock Deploying bioinformatics workflows on clouds with galaxy and globus
+  provision.
+\newblock In {\em Supercomputing (SC) Companion: High Performance Computing,
+  Networking, Storage and Analysis (SCC)\/} (2012), pp.~1087--1095.
+
+\bibitem{Liu16}
+{\sc Liu, J., Pacitti, E., Valduriez, P., de~Oliveira, D., and Mattoso, M.}
+\newblock Multi-objective scheduling of scientific workflows in multisite
+  clouds.
+\newblock {\em Future Generation Computer Systems 63\/} (2016), 76--95.
+
+\bibitem{Liu2016a}
+{\sc Liu, J., Pacitti, E., Valduriez, P., de~Oliveira, D., and Mattoso, M.}
+\newblock Multi-objective scheduling of scientificworkflows in multisite
+  clouds.
+\newblock In {\em BDA\/} (2016).
+\newblock To appear.
+
+\bibitem{Liu2014a}
+{\sc Liu, J., Pacitti, E., Valduriez, P., and Mattoso, M.}
+\newblock Parallelization of scientific workflows in the cloud.
+\newblock Research Report RR-8565, 2014.
+
+\bibitem{Liu2015}
+{\sc Liu, J., Pacitti, E., Valduriez, P., and Mattoso, M.}
+\newblock A survey of data-intensive scientific workflow management.
+\newblock {\em Journal of Grid Computing\/} (2015), 1--37.
+
+\bibitem{Liu2016}
+{\sc Liu, J., Pacitti, E., Valduriez, P., and Mattoso., M.}
+\newblock Scientific workflow scheduling with provenance support in multisite
+  cloud.
+\newblock In {\em High Performance Computing for Computational Science
+  {VECPAR}\/} (2016).
+\newblock To appear.
+
+\bibitem{Liu2014}
+{\sc Liu, J., Silva, V., Pacitti, E., Valduriez, P., and Mattoso, M.}
+\newblock Scientific workflow partitioning in multisite cloud.
+\newblock In {\em BigDataCloud'2014: 3rd Workshop on Big Data Management in
+  Clouds in conjunction with Euro-Par\/} (2014), pp.~105--116.
+
+\bibitem{Ludascher2006}
+{\sc Lud{\"a}scher, B., Altintas, I., Berkley, C., Higgins, D., Jaeger, E.,
+  Jones, M.~B., Lee, E.~A., Tao, J., and Zhao, Y.}
+\newblock Scientific workflow management and the kepler system.
+\newblock {\em Concurrency and Computation: Practice and Experience 18}, 10
+  (2006), 1039--1065.
+
+\bibitem{Luo2012}
+{\sc Luo, Y., and Plale, B.}
+\newblock Hierarchical mapreduce programming model and scheduling algorithms.
+\newblock In {\em Proceedings of 12th IEEE/ACM Int. Symposium on Cluster, Cloud
+  and Grid Computing (Ccgrid)\/} (2012), pp.~769--774.
+
+\bibitem{Maheswaran1999}
+{\sc Maheswaran, M., Ali, S., Siegel, H.~J., Hensgen, D., and Freund, R.~F.}
+\newblock Dynamic matching and scheduling of a class of independent tasks onto
+  heterogeneous computing systems.
+\newblock In {\em 8th Heterogeneous Computing Workshop\/} (1999), pp.~30--.
+
+\bibitem{Malawski2012}
+{\sc Malawski, M., Juve, G., Deelman, E., and Nabrzyski, J.}
+\newblock Cost- and deadline-constrained provisioning for scientific workflow
+  ensembles in iaas clouds.
+\newblock In {\em Supercomputing (SC) Conf. on High Performance Computing
+  Networking, Storage and Analysis\/} (2012), pp.~1--11.
+
+\bibitem{Mandal2011}
+{\sc Mandal, A., Xin, Y., Baldine, I., Ruth, P., Heerman, C., Chase, J.,
+  Orlikowski, V., and Yumerefendi, A.}
+\newblock Provisioning and evaluating multi-domain networked clouds for
+  hadoop-based applications.
+\newblock In {\em Cloud Computing Technology and Science (CloudCom), IEEE 3rd
+  Int. Conf. on Cloud Computing Technology and Science\/} (2011), pp.~690--697.
+
+\bibitem{Marler2004}
+{\sc Marler, R., and Arora, J.}
+\newblock Survey of multi-objective optimization methods for engineering.
+\newblock {\em Structural and Multidisciplinary Optimization 26}, 6 (2004),
+  369--395.
+
+\bibitem{Mattoso2014}
+{\sc Mattoso, M., Dias, J., Oca{\~n}a, K.~A., Ogasawara, E., Costa, F., Horta,
+  F., Silva, V., and de~Oliveira, D.}
+\newblock Dynamic steering of {HPC} scientific workflows: A survey.
+\newblock {\em Future Generation Computer Systems}, 0 (2014).
+
+\bibitem{Mattoso2010}
+{\sc Mattoso, M., Werner, C., Travassos, G., Braganholo, V., Ogasawara, E.,
+  Oliveira, D., Cruz, S., Martinho, W., and Murta, L.}
+\newblock Towards supporting the life cycle of large scale scientific
+  experiments.
+\newblock In {\em Int. J. Business Process Integration and Management}, vol.~5.
+  2010, pp.~79--82.
+
+\bibitem{Milojicic2011}
+{\sc Milojicic, D.~S., Llorente, I.~M., and Montero, R.~S.}
+\newblock Opennebula: A cloud management tool.
+\newblock {\em IEEE Internet Computing 15}, 2 (2011), 11--14.
+
+\bibitem{Missier2010}
+{\sc Missier, P., Soiland-Reyes, S., Owen, S., Tan, W., Nenadic, A., Dunlop,
+  I., Williams, A., Oinn, T., and Goble, C.}
+\newblock Taverna, reloaded.
+\newblock In {\em Int. Conf. on Scientific and Statistical Database
+  Management\/} (2010), pp.~471--481.
+
+\bibitem{Nagavaram2011}
+{\sc Nagavaram, A., Agrawal, G., Freitas, M.~A., Telu, K.~H., Mehta, G.,
+  Mayani, R.~G., and Deelman, E.}
+\newblock A cloud-based dynamic workflow for mass spectrometry data analysis.
+\newblock In {\em IEEE 7th Int. Conf. on E-Science (e-Science)\/} (2011),
+  pp.~47--54.
+
+\bibitem{Nguyen2012}
+{\sc Nguyen, D., and Thoai, N.}
+\newblock Ebc: Application-level migration on multi-site cloud.
+\newblock In {\em Int. Conf. on Systems and Informatics (ICSAI)\/} (2012),
+  pp.~876--880.
+
+\bibitem{Nicolae2011}
+{\sc Nicolae, B., Antoniu, G., Boug{\'e}, L., Moise, D., and Carpen-Amarie, A.}
+\newblock Blobseer: Next-generation data management for large scale
+  infrastructures.
+\newblock {\em Journal of Parallel and Distributed Computing 71}, 2 (2011),
+  169--184.
+
+\bibitem{Ocana2011}
+{\sc Oca{\~n}a, K.~A., Oliveira, D., Ogasawara, E., D{\'a}vila, A.~M., Lima,
+  A.~A., and Mattoso, M.}
+\newblock Sciphy: A cloud-based workflow for phylogenetic analysis of drug
+  targets in protozoan genomes.
+\newblock In {\em Advances in Bioinformatics and Computational Biology},
+  vol.~6832. 2011, pp.~66--70.
+
+\bibitem{Ocana2012}
+{\sc Oca{\~n}a, K. A. C.~S., Oliveira, D., Horta, F., Dias, J., Ogasawara, E.,
+  and Mattoso, M.}
+\newblock Exploring molecular evolution reconstruction using a parallel cloud
+  based scientific workflow.
+\newblock In {\em Advances in Bioinformatics and Computational Biology},
+  vol.~7409. 2012, pp.~179--191.
+
+\bibitem{Ogasawara2011}
+{\sc Ogasawara, E.~S., de~Oliveira, D., Valduriez, P., Dias, J., Porto, F., and
+  Mattoso, M.}
+\newblock An algebraic approach for data-centric scientific workflows.
+\newblock {\em Proceedings of the VLDB Endowment (PVLDB) 4}, 12 (2011),
+  1328--1339.
+
+\bibitem{Ogasawara2013}
+{\sc Ogasawara, E.~S., Dias, J., Silva, V., Chirigati, F.~S., de~Oliveira, D.,
+  Porto, F., Valduriez, P., and Mattoso, M.}
+\newblock Chiron: a parallel engine for algebraic scientific workflows.
+\newblock {\em Concurrency and Computation: Practice and Experience 25}, 16
+  (2013), 2327--2341.
+
+\bibitem{Oinn2007}
+{\sc Oinn, T., Li, P., Kell, D.~B., Goble, C., Goderis, A., Greenwood, M.,
+  Hull, D., Stevens, R., Turi, D., and Zhao, J.}
+\newblock Taverna/mygrid: Aligning a workflow system with the life sciences
+  community.
+\newblock In {\em Workflows for e-Science}. 2007, pp.~300--319.
+
+\bibitem{Oinn2004}
+{\sc Oinn, T.~M., Addis, M., Ferris, J., Marvin, D., Senger, M., Greenwood,
+  R.~M., Carver, T., Glover, K., Pocock, M.~R., Wipat, A., and Li, P.}
+\newblock Taverna: a tool for the composition and enactment of bioinformatics
+  workflows.
+\newblock {\em Bioinformatics 20}, 17 (2004), 3045--3054.
+
+\bibitem{Olabarriaga2014}
+{\sc Olabarriaga, S., Benabdelkader, A., Caan, M., Jaghoori, M., Kr\"{u}ger,
+  J., de~la Garza, L., Mohr, C., Schubert, B., Danezi, A., and Kiss, T.}
+\newblock Ws-pgrade/guse-based science gateways in teaching.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~223--234.
+
+\bibitem{Olston2008}
+{\sc Olston, C., Reed, B., Srivastava, U., Kumar, R., and Tomkins, A.}
+\newblock Pig latin: a not-so-foreign language for data processing.
+\newblock In {\em ACM SIGMOD Int. Conf. on Management of Data (SIGMOD)\/}
+  (2008), pp.~1099--1110.
+
+\bibitem{Ostermann2011}
+{\sc Ostermann, S., Plankensteiner, K., Prodan, R., and Fahringer, T.}
+\newblock Groudsim: An event-based simulation framework for computational grids
+  and clouds.
+\newblock In {\em European Conf. on Parallel Processing (Euro-Par) Workshops\/}
+  (2011), pp.~305--313.
+
+\bibitem{Ostermann2009a}
+{\sc Ostermann, S., Prodan, R., and Fahringer, T.}
+\newblock Extending grids with cloud resource management for scientific
+  computing.
+\newblock In {\em 10th IEEE/ACM Int. Conf. on Grid Computing\/} (2009),
+  pp.~42--49.
+
+\bibitem{Ozsu2011}
+{\sc {\"O}zsu, M.~T., and Valduriez, P.}
+\newblock {\em Principles of Distributed Database Systems}.
+\newblock Springer, 2011.
+
+\bibitem{Pacitti2012a}
+{\sc Pacitti, E., Akbarinia, R., and Dick, M.~E.}
+\newblock {\em P2P Techniques for Decentralized Applications}.
+\newblock Morgan {\&} Claypool Publishers, 2012.
+
+\bibitem{Pautasso2006}
+{\sc Pautasso, C., and Alonso, G.}
+\newblock Parallel computing patterns for grid workflows.
+\newblock In {\em Workshop on Workflows in Support of Large-Scale Science\/}
+  (2006), pp.~1--10.
+
+\bibitem{Perry2005}
+{\sc Perry, J., Smith, L., Jackson, A.~N., Kenway, R.~D., Joo, B., Maynard,
+  C.~M., Trew, A., Byrne, D., Beckett, G., Davies, C. T.~H., Downing, S.,
+  Irving, A.~C., McNeile, C., Sroczynski, Z., Allton, C.~R., Armour, W., and
+  Flynn, J.~M.}
+\newblock Qcdgrid: A grid resource for quantum chromodynamics.
+\newblock {\em Journal of Grid Computing 3}, 1 (2005), 113--130.
+
+\bibitem{Luis2015}
+{\sc Pineda{-}Morales, L., Costan, A., and Antoniu, G.}
+\newblock Towards multi-site metadata management for geographically distributed
+  cloud workflows.
+\newblock In {\em 2015 {IEEE} Int. Conf. on Cluster Computing, {CLUSTER}\/}
+  (2015), pp.~294--303.
+
+\bibitem{Plankensteiner2013}
+{\sc Plankensteiner, K., Prodan, R., Janetschek, M., Fahringer, T., Montagnat,
+  J., Rogers, D., Harvey, I., Taylor, I., Balask\'o, {\'A}., and Kacsuk, P.}
+\newblock Fine-grain interoperability of scientific workflows in distributed
+  computing infrastructures.
+\newblock {\em Journal of Grid Computing 11}, 3 (2013), 429--455.
+
+\bibitem{Preslan1999}
+{\sc Preslan, K.~W., Barry, A.~P., Brassow, J.~E., Erickson, G.~M., Nygaard,
+  E., Sabol, C.~J., Soltis, S.~R., Teigland, D.~C., and O'Keefe, M.~T.}
+\newblock A 64-bit, shared disk file system for linux.
+\newblock In {\em 16th IEEE Symposium on Mass Storage Systems\/} (1999),
+  pp.~22--41.
+
+\bibitem{Prodan2007}
+{\sc Prodan, R.}
+\newblock Online analysis and runtime steering of dynamic workflows in the
+  askalon grid environment.
+\newblock In {\em 7th IEEE Int. Symposium on Cluster Computing and the Grid
+  (CCGRID)\/} (2007), pp.~389--400.
+
+\bibitem{Rahman2013}
+{\sc Rahman, M., Hassan, M.~R., Ranjan, R., and Buyya, R.}
+\newblock Adaptive workflow scheduling for dynamic grid and cloud computing
+  environment.
+\newblock {\em Concurrency and Computation: Practice and Experience 25}, 13
+  (2013), 1816--1842.
+
+\bibitem{Raicu2008}
+{\sc Raicu, I., Zhao, Y., Foster, I.~T., and Szalay, A.~S.}
+\newblock Data diffusion: Dynamic resource provision and data-aware scheduling
+  for data intensive applications.
+\newblock {\em The Computing Research Repository (CoRR) abs/0808.3535\/}
+  (2008).
+
+\bibitem{Ramakrishnan2007}
+{\sc Ramakrishnan, A., Singh, G., Zhao, H., Deelman, E., Sakellariou, R., Vahi,
+  K., Blackburn, K., Meyers, D., and Samidi, M.}
+\newblock Scheduling data-intensiveworkflows onto storage-constrained
+  distributed resources.
+\newblock In {\em 7th IEEE Int. Symposium on Cluster Computing and the Grid
+  (CCGRID)\/} (2007), pp.~401--409.
+
+\bibitem{Reynolds2011}
+{\sc Reynolds, C.~J., Winter, S.~C., Tersty{\'{a}}nszky, G., Kiss, T.,
+  Greenwell, P., Acs, S., and Kacsuk, P.}
+\newblock Scientific workflow makespan reduction through cloud augmented
+  desktop grids.
+\newblock In {\em {IEEE} 3rd International Conference on Cloud Computing
+  Technology and Science\/} (2011), pp.~18--23.
+
+\bibitem{Rodriguez2015}
+{\sc Rodriguez, M.~A., and Buyya, R.}
+\newblock A responsive knapsack-based algorithm for resource provisioning and
+  scheduling of scientific workflows in clouds.
+\newblock In {\em 44th Int. Conf. on Parallel Processing, {ICPP}\/} (2015).
+
+\bibitem{Samak2011}
+{\sc Samak, T., Gunter, D., Goode, M., Deelman, E., Juve, G., Mehta, G., Silva,
+  F., and Vahi, K.}
+\newblock Online fault and anomaly detection for large-scale scientific
+  workflows.
+\newblock In {\em 13th IEEE Int. Conf. on High Performance Computing and
+  Communications (HPCC)\/} (2011), pp.~373--381.
+
+\bibitem{Sandberg1988}
+{\sc Sandberg, R., Golgberg, D., Kleiman, S., Walsh, D., and Lyon, B.}
+\newblock Innovations in internetworking.
+\newblock 1988, ch.~Design and Implementation of the Sun Network Filesystem,
+  pp.~379--390.
+
+\bibitem{Sardina2010}
+{\sc Sardi{\~n}a, I., Boeres, C., and de~A.~Drummond, L.}
+\newblock An efficient weighted bi-objective scheduling algorithm for
+  heterogeneous systems.
+\newblock In {\em Euro-Par 2009 – Parallel Processing Workshops}, vol.~6043.
+  2010, pp.~102--111.
+
+\bibitem{Schmuck2002}
+{\sc Schmuck, F., and Haskin, R.}
+\newblock {GPFS}: A shared-disk file system for large computing clusters.
+\newblock In {\em 1st USENIX Conf. on File and Storage Technologies\/} (2002).
+
+\bibitem{Sciacca2014}
+{\sc Sciacca, E., Vitello, F., Becciani, U., Costa, A., and Massimino, P.}
+\newblock Visivo gateway and visivo mobile for the astrophysics community.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~181--194.
+
+\bibitem{Shahand2014}
+{\sc Shahand, S., Jaghoori, M., Benabdelkader, A., Font-Calvo, J., Huguet, J.,
+  Caan, M., van Kampen, A., and Olabarriaga, S.}
+\newblock Computational neuroscience gateway: A science gateway based on the
+  ws-pgrade/guse.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~139--149.
+
+\bibitem{Shankar2007}
+{\sc Shankar, S., and DeWitt, D.~J.}
+\newblock Data driven workflow planning in cluster management systems.
+\newblock In {\em 16th International Symposium on High-Performance Distributed
+  Computing {(HPDC-16})\/} (2007), pp.~127--136.
+
+\bibitem{Shen11}
+{\sc Shen, Z., Subbiah, S., Gu, X., and Wilkes, J.}
+\newblock Cloudscale: elastic resource scaling for multi-tenant cloud systems.
+\newblock In {\em {ACM} Symposium on Cloud Computing in conjunction with
+  {SOSP}\/} (2011), p.~5.
+
+\bibitem{Singh2008}
+{\sc Singh, G., Su, M.-H., Vahi, K., Deelman, E., Berriman, B., Good, J., Katz,
+  D.~S., and Mehta, G.}
+\newblock Workflow task clustering for best effort systems with pegasus.
+\newblock In {\em 15th ACM Mardi Gras Conf.: From Lightweight Mash-ups to
+  Lambda Grids: Understanding the Spectrum of Distributed Computing
+  Requirements, Applications, Tools, Infrastructures, Interoperability, and the
+  Incremental Adoption of Key Capabilities\/} (2008), pp.~9:1--9:8.
+
+\bibitem{Smanchat2009}
+{\sc Smanchat, S., Indrawan, M., Ling, S., Enticott, C., and Abramson, D.}
+\newblock Scheduling multiple parameter sweep workflow instances on the grid.
+\newblock In {\em 5th IEEE Int. Conf. on e-Science\/} (2009), pp.~300--306.
+
+\bibitem{Snir1998}
+{\sc Snir, M., Otto, S., Huss-Lederman, S., Walker, D., and Dongarra, J.}
+\newblock {\em MPI-The Complete Reference, Volume 1: The MPI Core}.
+\newblock MIT Press, 1998.
+
+\bibitem{Sun2013}
+{\sc Sun, X., and Chen, Y.}
+\newblock Reevaluating amdahl's law in the multicore era.
+\newblock {\em Journal of Parallel and Distributed Computing 70}, 2 (2010),
+  183--188.
+
+\bibitem{Tanaka2012}
+{\sc Tanaka, M., and Tatebe, O.}
+\newblock Workflow scheduling to minimize data movement using multi-constraint
+  graph partitioning.
+\newblock In {\em 12th IEEE/ACM Int. Symposium on Cluster, Cloud and Grid
+  Computing (Ccgrid)\/} (2012), pp.~65--72.
+
+\bibitem{Tarapanoff2001}
+{\sc Tarapanoff, K., Quoniam, L., de~Ara{\'u}jo~J{\'u}nior, R.~H., and Alvares,
+  L.}
+\newblock Intelligence obtained by applying data mining to a database of french
+  theses on the subject of brazil.
+\newblock {\em Information Research 7}, 1 (2001).
+
+\bibitem{Taylor2007}
+{\sc Taylor, I., Shields, M., Wang, I., and Harrison, A.}
+\newblock The triana workflow environment: Architecture and applications.
+\newblock In {\em Workflows for e-Science}. Springer, 2007, pp.~320--339.
+
+\bibitem{Tersty2014}
+{\sc Tersty{\'{a}}nszky, G., Kukla, T., Kiss, T., Kacsuk, P., Balask{\'{o}},
+  {\'{A}}., and Farkas, Z.}
+\newblock Enabling scientific workflow sharing through coarse-grained
+  interoperability.
+\newblock {\em Future Generation Computer Systems 37\/} (2014), 46--59.
+
+\bibitem{Tersty2014a}
+{\sc Tersty\'{a}nszky, G., Michniak, E., Kiss, T., and Balask\'{o}, {\'{A}}.}
+\newblock Sharing science gateway artefacts through repositories.
+\newblock In {\em Science Gateways for Distributed Computing Infrastructures},
+  P.~Kacsuk, Ed. Springer International Publishing, 2014, pp.~123--135.
+
+\bibitem{Toosi2014}
+{\sc Toosi, A.~N., Calheiros, R.~N., and Buyya, R.}
+\newblock Interconnected cloud computing environments: Challenges, taxonomy,
+  and survey.
+\newblock {\em ACM Computing Surveys 47}, 1 (2014), 7:1--7:47.
+
+\bibitem{Topcuouglu2002}
+{\sc Topcuouglu, H., Hariri, S., and Wu, M.}
+\newblock Performance-effective and low-complexity task scheduling for
+  heterogeneous computing.
+\newblock {\em IEEE Transactions on Parallel and Distributed Systems 13}, 3
+  (2002), 260--274.
+
+\bibitem{Tudoran2012}
+{\sc Tudoran, R., Costan, A., Antoniu, G., and Soncu, H.}
+\newblock Tomusblobs: Towards communication-efficient storage for mapreduce
+  applications in azure.
+\newblock In {\em 12th IEEE/ACM Int. Symposium on Cluster, Cloud and Grid
+  Computing (CCGrid)\/} (2012), pp.~427--434.
+
+\bibitem{U-chupala2013}
+{\sc U-chupala, P., Uthayopas, P., Ichikawa, K., Date, S., and Abe, H.}
+\newblock An implementation of a multi-site virtual cluster cloud.
+\newblock In {\em 10th Int. Joint Conf. on Computer Science and Software
+  Engineering (JCSSE)\/} (2013), pp.~155--159.
+
+\bibitem{Aalst2003}
+{\sc v.~d. Aalst, W. M.~P., Weske, M., and Wirtz, G.}
+\newblock Advanced topics in workflow management: Issues, requirements, and
+  solutions.
+\newblock {\em Transactions of the SDPS 7}, 3 (2003), 49--77.
+
+\bibitem{Vahi2012}
+{\sc Vahi, K., Harvey, I., Samak, T., Gunter, D., Evans, K., Rogers, D.,
+  Taylor, I., Goode, M., Silva, F., Al-Shakarchi, E., Mehta, G., Jones, A., and
+  Deelman, E.}
+\newblock A general approach to real-time workflow monitoring.
+\newblock In {\em Supercomputing (SC) Companion: High Performance Computing,
+  Networking, Storage and Analysis (SCC)\/} (2012), pp.~108--118.
+
+\bibitem{Wang2012}
+{\sc Wang, J., and Altintas, I.}
+\newblock Early cloud experiences with the kepler scientific workflow system.
+\newblock In {\em Int. Conf. on Computational Science (ICCS)\/} (2012), vol.~9,
+  pp.~1630--1634.
+
+\bibitem{Wang2009}
+{\sc Wang, J., Crawl, D., and Altintas, I.}
+\newblock Kepler + hadoop: A general architecture facilitating data-intensive
+  applications in scientific workflow systems.
+\newblock In {\em 4th Workshop on Workflows in Support of Large-Scale
+  Science\/} (2009), pp.~12:1--12:8.
+
+\bibitem{Wang2013}
+{\sc Wang, L., Tao, J., Ranjan, R., Marten, H., Streit, A., Chen, J., and Chen,
+  D.}
+\newblock G-hadoop: Mapreduce across distributed data centers for
+  data-intensive computing.
+\newblock {\em Future Generation Comp. Syst. 29}, 3 (2013), 739--750.
+
+\bibitem{White2009}
+{\sc White, T.}
+\newblock {\em Hadoop: The Definitive Guide}.
+\newblock O'Reilly Media, Inc., 2009.
+
+\bibitem{Wieczorek2005}
+{\sc Wieczorek, M., Prodan, R., and Fahringer, T.}
+\newblock Scheduling of scientific workflows in the askalon grid environment.
+\newblock {\em SIGMOD Record 34}, 3 (2005), 56--62.
+
+\bibitem{Wieder2011}
+{\sc Wieder, P., Butler, J.~M., Theilmann, W., and Yahyapour, R.}
+\newblock {\em Service Level Agreements for Cloud Computing}.
+\newblock Springer, 2011.
+
+\bibitem{Wilde2011}
+{\sc Wilde, M., Hategan, M., Wozniak, J.~M., Clifford, B., Katz, D.~S., and
+  Foster, I.}
+\newblock Swift: A language for distributed parallel scripting.
+\newblock {\em Parallel Computing 37}, 9 (2011), 633--652.
+
+\bibitem{Williams2009}
+{\sc Williams, D.~N., Drach, R., Ananthakrishnan, R., Foster, I.~T., Fraser,
+  D., Siebenlist, F., Bernholdt, D.~E., Chen, M., Schwidder, J., Bharathi, S.,
+  Chervenak, A.~L., Schuler, R., Su, M., Brown, D., Cinquini, L., Fox, P.,
+  Garcia, J., Middleton, D.~E., Strand, W.~G., Wilhelmi, N., Hankin, S.,
+  Schweitzer, R., Jones, P., Shoshani, A., and Sim, A.}
+\newblock The earth system grid: Enabling access to multimodel climate
+  simulation data.
+\newblock {\em Bulletin of the American Meteorological Society 90}, 2 (2009),
+  195--205.
+
+\bibitem{Woitaszek2011}
+{\sc Woitaszek, M., Dennis, J.~M., and Sines, T.~R.}
+\newblock Parallel high-resolution climate data analysis using swift.
+\newblock In {\em ACM Int. Workshop on Many Task Computing on Grids and
+  Supercomputers\/} (2011), pp.~5--14.
+
+\bibitem{Wolstencroft2013}
+{\sc Wolstencroft, K., Haines, R., Fellows, D., Williams, A.~R., Withers, D.,
+  Owen, S., Soiland-Reyes, S., Dunlop, I., Nenadic, A., Fisher, P., Bhagat, J.,
+  Belhajjame, K., Bacall, F., Hardisty, A., de~la Hidalga, A.~N., Vargas, M.
+  P.~B., Sufi, S., and Goble, C.~A.}
+\newblock The taverna workflow suite: designing and executing workflows of web
+  services on the desktop, web or in the cloud.
+\newblock {\em Nucleic Acids Research 41}, Webserver-Issue (2013), 557--561.
+
+\bibitem{Wozniak2012}
+{\sc Wozniak, J.~M., Armstrong, T.~G., Maheshwari, K., Lusk, E.~L., Katz,
+  D.~S., Wilde, M., and Foster, I.~T.}
+\newblock Turbine: A distributed-memory dataflow engine for extreme-scale
+  many-task applications.
+\newblock In {\em 1st ACM SIGMOD Workshop on Scalable Workflow Execution
+  Engines and Technologies\/} (2012), pp.~5:1--5:12.
+
+\bibitem{Xu12}
+{\sc Xu, L., Zeng, Z., and Ye, X.}
+\newblock Multi-objective optimization based virtual resource allocation
+  strategy for cloud computing.
+\newblock In {\em {IEEE/ACIS} 11th Int. Conf. on Computer and Information
+  Science\/} (2012), pp.~56--61.
+
+\bibitem{Yildiz2009}
+{\sc Yildiz, U., Guabtni, A., and Ngu, A. H.~H.}
+\newblock Business versus scientific workflows: A comparative study.
+\newblock In {\em IEEE Congress on Services, Part I, Services I\/} (2009),
+  pp.~340--343.
+
+\bibitem{Yu2005}
+{\sc Yu, J., and Buyya, R.}
+\newblock A taxonomy of workflow management systems for grid computing.
+\newblock {\em Journal of Grid Computing 3\/} (2005), 171--200.
+
+\bibitem{Yu2007}
+{\sc Yu, Z., and Shi, W.}
+\newblock An adaptive rescheduling strategy for grid workflow applications.
+\newblock In {\em IEEE Int. Parallel and Distributed Processing Symposium
+  (IPDPS)\/} (2007), pp.~1--8.
+
+\bibitem{Yuan2010}
+{\sc Yuan, D., Yang, Y., Liu, X., and Chen, J.}
+\newblock A cost-effective strategy for intermediate data storage in scientific
+  cloud workflow systems.
+\newblock In {\em IEEE Int. Symposium on Parallel Distributed Processing
+  (IPDPS)\/} (2010), pp.~1--12.
+
+\bibitem{Zadeh1963}
+{\sc Zadeh, L.}
+\newblock Optimality and non-scalar-valued performance criteria.
+\newblock {\em IEEE Transactions on Automatic Control 8}, 1 (1963), 59--60.
+
+\bibitem{Zhang2013}
+{\sc Zhang, H., Soiland-Reyes, S., and Goble, C.~A.}
+\newblock Taverna mobile: Taverna workflows on android.
+\newblock {\em The Computing Research Repository (CoRR) abs/1309.2787\/}
+  (2013).
+
+\bibitem{Zhang2010}
+{\sc Zhang, Q., Cheng, L., and Boutaba, R.}
+\newblock Cloud computing: state-of-the-art and research challenges.
+\newblock {\em Journal of Internet Services and Applications 1\/} (2010),
+  7--18.
+
+\bibitem{Zhao2007}
+{\sc Zhao, Y., Hategan, M., Clifford, B., Foster, I., von Laszewski, G.,
+  Nefedova, V., Raicu, I., Stef-Praun, T., and Wilde, M.}
+\newblock Swift: Fast, reliable, loosely coupled parallel computation.
+\newblock In {\em IEEE Int. Conf. on Services Computing - Workshops (SCW)\/}
+  (2007), pp.~199--206.
+
+\bibitem{Zhao2008}
+{\sc Zhao, Y., Raicu, I., and Foster, I.~T.}
+\newblock Scientific workflow systems for 21st century, new bottle or new wine?
+\newblock In {\em IEEE Congress on Services, Part I, Services I\/} (2008),
+  pp.~467--471.
+
+\end{thebibliography}

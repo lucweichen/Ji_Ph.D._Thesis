@@ -1,0 +1,116 @@
+\BOOKMARK [0][-]{chapter*.1}{Acknowledgments}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{R\351sum\351}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{R\351sum\351 \311tendu}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Thesis Context}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Contributions}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Organization of the Thesis}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{State of the Art}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Overview and Motivations}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Scientific Workflow Management }{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Basic Concepts}{section.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Scientific Workflows}{subsection.2.2.1}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Scientific Workflow Life Cycle}{subsection.2.2.1}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.1.3}{Scientific Workflow Management Systems}{subsection.2.2.1}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.1.4}{Scientific Workflow Examples}{subsection.2.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.2.2}{Functional Architecture of SWfMSs}{section.2.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Presentation Layer}{subsection.2.2.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.2.2.2}{User Services Layer}{subsection.2.2.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.2.2.3}{WEP Generation Layer}{subsection.2.2.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.2.2.4}{WEP Execution Layer}{subsection.2.2.2}% 21
+\BOOKMARK [3][-]{subsubsection.2.2.2.5}{Infrastructure Layer}{subsection.2.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.3}{Techniques for Data-intensive Scientific Workflows}{section.2.2}% 23
+\BOOKMARK [1][-]{section.2.3}{Parallel Execution in SWfMSs}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.3.1}{Scientific Workflow Parallelism}{section.2.3}% 25
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Coarse-Grained Parallelism}{subsection.2.3.1}% 26
+\BOOKMARK [3][-]{subsubsection.2.3.1.2}{Fine-Grained Parallelism}{subsection.2.3.1}% 27
+\BOOKMARK [2][-]{subsection.2.3.2}{Scientific Workflow Scheduling}{section.2.3}% 28
+\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Task Clustering}{subsection.2.3.2}% 29
+\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Static Scheduling}{subsection.2.3.2}% 30
+\BOOKMARK [3][-]{subsubsection.2.3.2.3}{Dynamic Scheduling}{subsection.2.3.2}% 31
+\BOOKMARK [3][-]{subsubsection.2.3.2.4}{Hybrid Scheduling}{subsection.2.3.2}% 32
+\BOOKMARK [3][-]{subsubsection.2.3.2.5}{Scheduling Optimization Algorithms}{subsection.2.3.2}% 33
+\BOOKMARK [3][-]{subsubsection.2.3.2.6}{Conclusion}{subsection.2.3.2}% 34
+\BOOKMARK [1][-]{section.2.4}{SWfMS in a Multisite Cloud}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.4.1}{Cloud Computing}{section.2.4}% 36
+\BOOKMARK [2][-]{subsection.2.4.2}{Multisite Management in the Cloud}{section.2.4}% 37
+\BOOKMARK [2][-]{subsection.2.4.3}{Data Storage in the Cloud}{section.2.4}% 38
+\BOOKMARK [3][-]{subsubsection.2.4.3.1}{File Systems}{subsection.2.4.3}% 39
+\BOOKMARK [2][-]{subsection.2.4.4}{Scientific Workflow Execution in the Cloud}{section.2.4}% 40
+\BOOKMARK [3][-]{subsubsection.2.4.4.1}{Execution at a Single Cloud Site}{subsection.2.4.4}% 41
+\BOOKMARK [3][-]{subsubsection.2.4.4.2}{Execution in a Multisite Cloud}{subsection.2.4.4}% 42
+\BOOKMARK [2][-]{subsection.2.4.5}{Conclusion and Remarks}{section.2.4}% 43
+\BOOKMARK [1][-]{section.2.5}{Overview of Existing Solutions}{chapter.2}% 44
+\BOOKMARK [2][-]{subsection.2.5.1}{Parallel Processing Frameworks}{section.2.5}% 45
+\BOOKMARK [2][-]{subsection.2.5.2}{SWfMS}{section.2.5}% 46
+\BOOKMARK [3][-]{subsubsection.2.5.2.1}{Pegasus}{subsection.2.5.2}% 47
+\BOOKMARK [3][-]{subsubsection.2.5.2.2}{Swift}{subsection.2.5.2}% 48
+\BOOKMARK [3][-]{subsubsection.2.5.2.3}{Kepler}{subsection.2.5.2}% 49
+\BOOKMARK [3][-]{subsubsection.2.5.2.4}{Taverna}{subsection.2.5.2}% 50
+\BOOKMARK [3][-]{subsubsection.2.5.2.5}{Chiron}{subsection.2.5.2}% 51
+\BOOKMARK [3][-]{subsubsection.2.5.2.6}{Galaxy}{subsection.2.5.2}% 52
+\BOOKMARK [3][-]{subsubsection.2.5.2.7}{Triana}{subsection.2.5.2}% 53
+\BOOKMARK [3][-]{subsubsection.2.5.2.8}{Askalon}{subsection.2.5.2}% 54
+\BOOKMARK [3][-]{subsubsection.2.5.2.9}{WS-PGRADE/gUSE}{subsection.2.5.2}% 55
+\BOOKMARK [2][-]{subsection.2.5.3}{Concluding Remarks}{section.2.5}% 56
+\BOOKMARK [1][-]{section.2.6}{Conclusion}{chapter.2}% 57
+\BOOKMARK [0][-]{chapter.3}{Scientific Workflow Partitioning in a Multisite Cloud}{}% 58
+\BOOKMARK [1][-]{section.3.1}{Overview of the Proposal and Motivations}{chapter.3}% 59
+\BOOKMARK [1][-]{section.3.2}{Related Work}{chapter.3}% 60
+\BOOKMARK [1][-]{section.3.3}{System Model}{chapter.3}% 61
+\BOOKMARK [1][-]{section.3.4}{Use Case: Buzz Workflow}{chapter.3}% 62
+\BOOKMARK [1][-]{section.3.5}{Workflow Partitioning Techniques}{chapter.3}% 63
+\BOOKMARK [1][-]{section.3.6}{Validation}{chapter.3}% 64
+\BOOKMARK [1][-]{section.3.7}{Conclusion}{chapter.3}% 65
+\BOOKMARK [0][-]{chapter.4}{VM Provisioning of Scientific Workflows in a Single Site Cloud}{}% 66
+\BOOKMARK [1][-]{section.4.1}{Motivations and Overview}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.2}{Multi-objective Cost Model}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.2.1}{Time Cost}{section.4.2}% 69
+\BOOKMARK [2][-]{subsection.4.2.2}{Monetary Cost}{section.4.2}% 70
+\BOOKMARK [1][-]{section.4.3}{Single Site VM Provisioning}{chapter.4}% 71
+\BOOKMARK [1][-]{section.4.4}{Use Case}{chapter.4}% 72
+\BOOKMARK [1][-]{section.4.5}{Experimental Evaluation}{chapter.4}% 73
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 74
+\BOOKMARK [0][-]{chapter.5}{Multi-Objective Scheduling of Scientific Workflows in a Multisite Cloud}{}% 75
+\BOOKMARK [1][-]{section.5.1}{Overview and Motivations}{chapter.5}% 76
+\BOOKMARK [1][-]{section.5.2}{Related Work}{chapter.5}% 77
+\BOOKMARK [1][-]{section.5.3}{Problem Definition}{chapter.5}% 78
+\BOOKMARK [1][-]{section.5.4}{Multisite SWfMS Architecture}{chapter.5}% 79
+\BOOKMARK [1][-]{section.5.5}{Multi-objective Optimization}{chapter.5}% 80
+\BOOKMARK [2][-]{subsection.5.5.1}{Multi-objective Cost Model}{section.5.5}% 81
+\BOOKMARK [3][-]{subsubsection.5.5.1.1}{Time Cost}{subsection.5.5.1}% 82
+\BOOKMARK [3][-]{subsubsection.5.5.1.2}{Monetary Cost}{subsection.5.5.1}% 83
+\BOOKMARK [2][-]{subsection.5.5.2}{Cost Estimation}{section.5.5}% 84
+\BOOKMARK [1][-]{section.5.6}{Fragment Scheduling}{chapter.5}% 85
+\BOOKMARK [2][-]{subsection.5.6.1}{Use Case}{section.5.6}% 86
+\BOOKMARK [2][-]{subsection.5.6.2}{Scheduling approaches}{section.5.6}% 87
+\BOOKMARK [3][-]{subsubsection.5.6.2.1}{Data Location Based Scheduling}{subsection.5.6.2}% 88
+\BOOKMARK [3][-]{subsubsection.5.6.2.2}{Site Greedy Scheduling}{subsection.5.6.2}% 89
+\BOOKMARK [3][-]{subsubsection.5.6.2.3}{Activity Greedy Scheduling}{subsection.5.6.2}% 90
+\BOOKMARK [3][-]{subsubsection.5.6.2.4}{Solution analysis}{subsection.5.6.2}% 91
+\BOOKMARK [1][-]{section.5.7}{Experimental Evaluation}{chapter.5}% 92
+\BOOKMARK [1][-]{section.5.8}{Conclusion}{chapter.5}% 93
+\BOOKMARK [0][-]{chapter.6}{Task Scheduling with Provenance Support in Multisite Clouds}{}% 94
+\BOOKMARK [1][-]{section.6.1}{Proposal Overview and Motivations}{chapter.6}% 95
+\BOOKMARK [1][-]{section.6.2}{Related Work}{chapter.6}% 96
+\BOOKMARK [1][-]{section.6.3}{Problem Definition}{chapter.6}% 97
+\BOOKMARK [1][-]{section.6.4}{System Design}{chapter.6}% 98
+\BOOKMARK [2][-]{subsection.6.4.1}{Single Site Chiron}{section.6.4}% 99
+\BOOKMARK [2][-]{subsection.6.4.2}{Multisite Chiron}{section.6.4}% 100
+\BOOKMARK [1][-]{section.6.5}{Task Scheduling}{chapter.6}% 101
+\BOOKMARK [2][-]{subsection.6.5.1}{Single Site Task Scheduling}{section.6.5}% 102
+\BOOKMARK [2][-]{subsection.6.5.2}{Multisite Task Scheduling}{section.6.5}% 103
+\BOOKMARK [2][-]{subsection.6.5.3}{Complexity}{section.6.5}% 104
+\BOOKMARK [2][-]{subsection.6.5.4}{Execution Time Estimation}{section.6.5}% 105
+\BOOKMARK [1][-]{section.6.6}{Experimental Evaluation}{chapter.6}% 106
+\BOOKMARK [2][-]{subsection.6.6.1}{SWf Use Cases}{section.6.6}% 107
+\BOOKMARK [3][-]{subsubsection.6.6.1.1}{Buzz Workflow}{subsection.6.6.1}% 108
+\BOOKMARK [3][-]{subsubsection.6.6.1.2}{Montage Workflow}{subsection.6.6.1}% 109
+\BOOKMARK [2][-]{subsection.6.6.2}{Intersite Communication}{section.6.6}% 110
+\BOOKMARK [2][-]{subsection.6.6.3}{Experiments}{section.6.6}% 111
+\BOOKMARK [1][-]{section.6.7}{Conclusion}{chapter.6}% 112
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 113
+\BOOKMARK [1][-]{section.7.1}{Contributions}{chapter.7}% 114
+\BOOKMARK [1][-]{section.7.2}{Directions for Future Work}{chapter.7}% 115
+\BOOKMARK [0][-]{chapter*.78}{Bibliography}{}% 116

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.20)  10 NOV 2016 16:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.20)  12 DEC 2016 09:56
 entering extended mode
 **PHD-Manuscript.tex
 (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\PHD-Manuscript.tex
@@ -221,11 +221,11 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \Etoc@toctoks=\toks20
 \c@etoc@tocid=\count138
 \c@etoc@tocdepth=\count139
-
-No file PHD-Manuscript.toc.
+\Etoc@tf=\read1
 \etoc@framed@titlebox=\box54
 \etoc@framed@contentsbox=\box55
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip55
 \fb@frw=\dimen129
@@ -1235,7 +1235,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks32
 \verbatim@line=\toks33
-\verbatim@in@stream=\read1
+\verbatim@in@stream=\read2
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -1387,27 +1387,1903 @@ Package: a4wide 1994/08/30
 Package: a4 2004/04/15 v1.2g A4 based page layout
 ))
 (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\cdlr.sty
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\timestamp.sty
+Package: timestamp 2004/02/03 Timestamp package version 1.0
+\@DT@modctr=\count285
+\@dtctr=\count286
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks42
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box79
 
-! LaTeX Error: File `timestamp.sty' not found.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.2 \RequirePackage
-                   {graphicx}
-*** (cannot \read from terminal in nonstop modes)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
 
- 
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
+\pgfkeys@tmptoks=\toks45
+))
+\pgf@x=\dimen257
+\pgf@y=\dimen258
+\pgf@xa=\dimen259
+\pgf@ya=\dimen260
+\pgf@xb=\dimen261
+\pgf@yb=\dimen262
+\pgf@xc=\dimen263
+\pgf@yc=\dimen264
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count291
+\pgfsyssoftpath@bigbuffer@items=\count292
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen265
+\pgfmath@count=\count293
+\pgfmath@box=\box80
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex"))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+"
+\c@pgfmathroundto@lastzeros=\count294
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box81
+\pgf@hbox=\box82
+\pgf@layerbox@main=\box83
+\pgf@picture@serial@count=\count295
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen284
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen288
+\pgf@sys@shading@range@num=\count296
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box84
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box85
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen289
+\pgf@nodesepend=\dimen290
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count297
+\pgfplotmarksize=\dimen293
+)
+\tikz@lastx=\dimen294
+\tikz@lasty=\dimen295
+\tikz@lastxsaved=\dimen296
+\tikz@lastysaved=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box86
+\tikz@tempbox=\box87
+\tikztreelevel=\count298
+\tikznumberofchildren=\count299
+\tikznumberofcurrentchild=\count300
+\tikz@fig@count=\count301
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count302
+\pgfmatrixcurrentcolumn=\count303
+\pgf@matrix@numberofcolumns=\count304
+)
+\tikz@expandcount=\count305
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))))
+\longest=\skip89
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\PHD-Manuscript.aux
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Act.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Resume.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Abstract.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Lab/Lab.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/French.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Intro/MMDSWC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\StateOfTheArt/PSWC_J.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\SWEMC/SWEMC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\provisioning/WFSMC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Multio/WFSMC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\FGTS/FGTSMCPS.aux
+
+LaTeX Warning: Label `equ:0' multiply defined.
+
+) (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\conclusion/Conclusions.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Info: Redefining \degres on input line 5.
+LaTeX Info: Redefining \dots on input line 5.
+LaTeX Info: Redefining \up on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen300
+\scratchbox=\box88
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen301
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks52
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 426.79134pt, 99.58466pt)
+* v-part:(T,H,B)=(85.35826pt, 625.96062pt, 133.72797pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=625.96062pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=27.31467pt
+* \topmargin=-46.66249pt
+* \headheight=19.91692pt
+* \headsep=39.83385pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=76.82243pt
+* \marginparsep=11.38109pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box89
+Package hyperref Info: Link coloring OFF on input line 5.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count312
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\PHD-Manuscript.out)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\PHD-Manuscript.out)
+\@outlinefile=\write5
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 5.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 5.
+ ABD: EveryShipout initializing macros
+Package epstopdf Info: Source file: <logo-cdlr.eps>
+(epstopdf)                    date: 2016-02-19 19:11:28
+(epstopdf)                    size: 3767636 bytes
+(epstopdf)             Output file: <logo-cdlr-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-19 19:11:28
+(epstopdf)                    size: 112356 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo-cdlr-eps-converted-to.
+pdf logo-cdlr.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<logo-cdlr-eps-converted-to.pdf, id=471, 315.1775pt x 113.42375pt>
+File: logo-cdlr-eps-converted-to.pdf Graphic file (type pdf)
+
+<use logo-cdlr-eps-converted-to.pdf>
+Package pdftex.def Info: logo-cdlr-eps-converted-to.pdf used on input line 28.
+(pdftex.def)             Requested size: 156.49014pt x 56.31712pt.
+Package epstopdf Info: Source file: <logo_um.eps>
+(epstopdf)                    date: 2016-02-19 19:11:28
+(epstopdf)                    size: 2581308 bytes
+(epstopdf)             Output file: <logo_um-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-19 19:11:28
+(epstopdf)                    size: 93010 bytes
+(epstopdf)             Command: <epstopdf --outfile=logo_um-eps-converted-to.pd
+f logo_um.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<logo_um-eps-converted-to.pdf, id=472, 834.11626pt x 511.9125pt>
+File: logo_um-eps-converted-to.pdf Graphic file (type pdf)
+
+<use logo_um-eps-converted-to.pdf>
+Package pdftex.def Info: logo_um-eps-converted-to.pdf used on input line 28.
+(pdftex.def)             Requested size: 156.49014pt x 96.03802pt.
+Package epstopdf Info: Source file: <en-tete-cdlr2.eps>
+(epstopdf)                    date: 2016-02-19 19:11:28
+(epstopdf)                    size: 370003 bytes
+(epstopdf)             Output file: <en-tete-cdlr2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-19 19:11:28
+(epstopdf)                    size: 19046 bytes
+(epstopdf)             Command: <epstopdf --outfile=en-tete-cdlr2-eps-converted
+-to.pdf en-tete-cdlr2.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<en-tete-cdlr2-eps-converted-to.pdf, id=473, 334.24875pt x 101.37875pt>
+File: en-tete-cdlr2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use en-tete-cdlr2-eps-converted-to.pdf>
+Package pdftex.def Info: en-tete-cdlr2-eps-converted-to.pdf used on input line 
+28.
+(pdftex.def)             Requested size: 341.43306pt x 103.56583pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 28.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 28.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 28.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 28.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 28.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 28.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 28.
+ [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/su201500/Documen
+ts/Ji_Ph.D._Thesis/logo-cdlr-eps-converted-to.pdf> <C:/Users/su201500/Documents
+/Ji_Ph.D._Thesis/logo_um-eps-converted-to.pdf> <C:/Users/su201500/Documents/Ji_
+Ph.D._Thesis/en-tete-cdlr2-eps-converted-to.pdf>] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+ [1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+
+ []
+
+[2
+
+] (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Act.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+) [3
+
+
+]
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Resume.tex [4
+
+
+
+] [5]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 24.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+) [6]
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Abstract.tex [7
+
+
+
+])
+[8] (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Lab/Lab.tex) [9
+
+
+]
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/French.tex [10
+
+
+
+]
+Overfull \hbox (11.38748pt too wide) in paragraph at lines 5--7
+[]\T1/ptm/m/n/12 Les SWfs sont sou-vent \T1/ptm/m/it/12 orientés-données\T1/ptm
+/m/n/12 , \T1/ptm/m/it/12 c.-à-d. \T1/ptm/m/n/12 traitent, gèrent ou pro-duisen
+t d'énormes
+ []
+
+[11] [12] [13] [14] [15]
+Overfull \hbox (11.89136pt too wide) in paragraph at lines 68--68
+|\T1/ptm/b/n/17.28 Ordonnancement multi-objectif de SWfs dans un cloud mul-
+ []
+
+
+Overfull \hbox (3.83719pt too wide) in paragraph at lines 69--70
+\T1/ptm/m/n/12 ob-jec-tifs, afin de per-mettre l'exé-cu-tion de SWfs dans un cl
+oud mul-ti-site avec une contrainte
+ []
+
+[16]
+Overfull \hbox (1.9386pt too wide) in paragraph at lines 78--78
+|\T1/ptm/b/n/17.28 Ordonnancement de tâches avec les don-nées de pro-ve-nance| 
+
+ []
+
+[17] [18]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 103.
+
+Overfull \hbox (6.91098pt too wide) in paragraph at lines 105--106
+[]\T1/ptm/b/n/12 Spark mul-ti-site\T1/ptm/m/n/12 . Nos al-go-rithmes et op-ti-m
+i-sa-tions d'or-don-nan-ce-ment mul-ti-site pour-
+ []
+
+
+Overfull \hbox (3.21555pt too wide) in paragraph at lines 115--116
+\T1/ptm/m/n/12 Multi-Objective Sche-du-ling of Scien-ti-fic Work-flows in Mul-t
+i-site Clouds. Dans BDA'
+ []
+
+[19]
+Overfull \hbox (1.68199pt too wide) in paragraph at lines 127--128
+[]\T1/ptm/m/it/12 Ji Liu\T1/ptm/m/n/12 , Ví-tor Silva, Es-ther Pa-citti, Pa-tri
+ck Val-du-riez, Marta Mat-toso. Scien-ti-fic Work-
+ []
+
+) [20]
+\tf@toc=\write6
+ [21
+
+
+] [22] [23] [24]
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Intro/MMDSWC.tex
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 
+      [1
+
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 \item H
+            ow to manage the VM provisioning in the cloud for SWf execution?...
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+[5]
+Overfull \hbox (16.5832pt too wide) in paragraph at lines 93--94
+\T1/ptm/m/n/12 Multi-Objective Schedul-ing of Sci-en-tific Work-flows in Mul-ti
+-site Clouds. In BDA'$\OT1/lmr/m/n/12 2016$\T1/ptm/m/n/12 :
+ []
+
+
+Overfull \hbox (8.02293pt too wide) in paragraph at lines 97--98
+[]\T1/ptm/m/it/12 Ji Liu\T1/ptm/m/n/12 , Es-ther Pacitti, Patrick Val-duriez, M
+arta Mat-toso. Sci-en-tific Work-flow Schedul-
+ []
+
+[6] [7]) [8]
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\StateOfTheArt/PSWC_J.tex
+Chapter 2.
+[9
+
+
+
+] [10] [11] [12] [13]
+Package epstopdf Info: Source file: <figures/1.eps>
+(epstopdf)                    date: 2015-01-12 23:42:03
+(epstopdf)                    size: 1721391 bytes
+(epstopdf)             Output file: <figures/1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:13:02
+(epstopdf)                    size: 40422 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/1-eps-converted-to.
+pdf figures/1.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/1-eps-converted-to.pdf, id=947, 613.29124pt x 529.98pt>
+File: figures/1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/1-eps-converted-to.pdf used on input line 251.
+
+(pdftex.def)             Requested size: 239.00314pt x 206.5377pt.
+Package epstopdf Info: Source file: <figures/f2.eps>
+(epstopdf)                    date: 2014-03-31 10:12:31
+(epstopdf)                    size: 4044391 bytes
+(epstopdf)             Output file: <figures/f2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:15:56
+(epstopdf)                    size: 52253 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f2-eps-converted-to
+.pdf figures/f2.eps>
+(epstopdf)             \includegraphics on input line 264.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f2-eps-converted-to.pdf, id=951, 1158.3275pt x 680.5425pt>
+File: figures/f2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f2-eps-converted-to.pdf used on input line 264
+.
+(pdftex.def)             Requested size: 367.04054pt x 215.63889pt.
+ [14 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/1-eps-converted-to.pd
+f>] [15 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f2-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <figures/f3.eps>
+(epstopdf)                    date: 2014-06-10 16:30:49
+(epstopdf)                    size: 1479858 bytes
+(epstopdf)             Output file: <figures/f3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:15:58
+(epstopdf)                    size: 20752 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f3-eps-converted-to
+.pdf figures/f3.eps>
+(epstopdf)             \includegraphics on input line 338.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f3-eps-converted-to.pdf, id=1001, 651.43375pt x 461.725pt>
+File: figures/f3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f3-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f3-eps-converted-to.pdf used on input line 338
+.
+(pdftex.def)             Requested size: 367.04054pt x 260.15648pt.
+ [16] [17 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f3-eps-converted
+-to.pdf>] [18] [19] [20] [21]
+Package epstopdf Info: Source file: <figures/f20.eps>
+(epstopdf)                    date: 2015-02-05 16:32:52
+(epstopdf)                    size: 191321 bytes
+(epstopdf)             Output file: <figures/f20-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:15:59
+(epstopdf)                    size: 6987 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f20-eps-converted-t
+o.pdf figures/f20.eps>
+(epstopdf)             \includegraphics on input line 582.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f20-eps-converted-to.pdf, id=1115, 471.7625pt x 64.24pt>
+File: figures/f20-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f20-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f20-eps-converted-to.pdf used on input line 58
+2.
+(pdftex.def)             Requested size: 239.00314pt x 32.54533pt.
+ [22 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f20-eps-converted-to.
+pdf>] [23] [24]
+Package epstopdf Info: Source file: <figures/f4.eps>
+(epstopdf)                    date: 2015-02-05 16:35:06
+(epstopdf)                    size: 1733456 bytes
+(epstopdf)             Output file: <figures/f4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:00
+(epstopdf)                    size: 31938 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f4-eps-converted-to
+.pdf figures/f4.eps>
+(epstopdf)             \includegraphics on input line 705.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f4-eps-converted-to.pdf, id=1172, 627.34375pt x 522.95375pt>
+File: figures/f4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f4-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f4-eps-converted-to.pdf used on input line 705
+.
+(pdftex.def)             Requested size: 367.04054pt x 305.97858pt.
+ [25] [26 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f4-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <figures/f5.eps>
+(epstopdf)                    date: 2014-03-31 10:14:48
+(epstopdf)                    size: 1409201 bytes
+(epstopdf)             Output file: <figures/f5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:01
+(epstopdf)                    size: 19394 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f5-eps-converted-to
+.pdf figures/f5.eps>
+(epstopdf)             \includegraphics on input line 764.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f5-eps-converted-to.pdf, id=1205, 928.46875pt x 290.08376pt>
+File: figures/f5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f5-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f5-eps-converted-to.pdf used on input line 764
+.
+(pdftex.def)             Requested size: 367.04054pt x 114.67699pt.
+ [27 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f5-eps-converted-to.p
+df>]
+Overfull \hbox (6.5005pt too wide) in paragraph at lines 826--830
+\T1/ptm/m/n/12 The fine-grained par-al-lelism is re-al-ized within a SWf, a sub
+-workflow (for meta-workflows)
+ []
+
+[28]
+Package epstopdf Info: Source file: <figures/f17-1.eps>
+(epstopdf)                    date: 2014-04-10 14:50:46
+(epstopdf)                    size: 318636 bytes
+(epstopdf)             Output file: <figures/f17-1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:02
+(epstopdf)                    size: 11396 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f17-1-eps-converted
+-to.pdf figures/f17-1.eps>
+(epstopdf)             \includegraphics on input line 871.
+Package epstopdf Info: Output file is already uptodate.
+ <figures/f17-1-eps-converted-to.pdf, id=1234, 754.82pt x 76.285pt>
+File: figures/f17-1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f17-1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f17-1-eps-converted-to.pdf used on input line 
+871.
+(pdftex.def)             Requested size: 367.04054pt x 37.09479pt.
+Package epstopdf Info: Source file: <figures/f17-2.eps>
+(epstopdf)                    date: 2014-04-10 14:51:08
+(epstopdf)                    size: 592450 bytes
+(epstopdf)             Output file: <figures/f17-2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:03
+(epstopdf)                    size: 17111 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f17-2-eps-converted
+-to.pdf figures/f17-2.eps>
+(epstopdf)             \includegraphics on input line 872.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f17-2-eps-converted-to.pdf, id=1235, 754.82pt x 150.5625pt>
+File: figures/f17-2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f17-2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f17-2-eps-converted-to.pdf used on input line 
+872.
+(pdftex.def)             Requested size: 367.04054pt x 73.2134pt.
+Package epstopdf Info: Source file: <figures/f17-3.eps>
+(epstopdf)                    date: 2014-04-10 14:51:34
+(epstopdf)                    size: 416491 bytes
+(epstopdf)             Output file: <figures/f17-3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:05
+(epstopdf)                    size: 12367 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f17-3-eps-converted
+-to.pdf figures/f17-3.eps>
+(epstopdf)             \includegraphics on input line 873.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f17-3-eps-converted-to.pdf, id=1236, 754.82pt x 107.40125pt>
+File: figures/f17-3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f17-3-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f17-3-eps-converted-to.pdf used on input line 
+873.
+(pdftex.def)             Requested size: 367.04054pt x 52.22556pt.
+Package epstopdf Info: Source file: <figures/f17-4.eps>
+(epstopdf)                    date: 2014-04-10 14:51:57
+(epstopdf)                    size: 399694 bytes
+(epstopdf)             Output file: <figures/f17-4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:06
+(epstopdf)                    size: 13395 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f17-4-eps-converted
+-to.pdf figures/f17-4.eps>
+(epstopdf)             \includegraphics on input line 874.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f17-4-eps-converted-to.pdf, id=1237, 754.82pt x 102.3825pt>
+File: figures/f17-4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f17-4-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f17-4-eps-converted-to.pdf used on input line 
+874.
+(pdftex.def)             Requested size: 367.04054pt x 49.78511pt.
+Package epstopdf Info: Source file: <figures/f17-5.eps>
+(epstopdf)                    date: 2014-04-10 14:52:18
+(epstopdf)                    size: 868024 bytes
+(epstopdf)             Output file: <figures/f17-5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:07
+(epstopdf)                    size: 22200 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f17-5-eps-converted
+-to.pdf figures/f17-5.eps>
+(epstopdf)             \includegraphics on input line 887.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f17-5-eps-converted-to.pdf, id=1238, 754.82pt x 238.8925pt>
+File: figures/f17-5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f17-5-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f17-5-eps-converted-to.pdf used on input line 
+887.
+(pdftex.def)             Requested size: 367.04054pt x 116.16527pt.
+
+
+LaTeX Warning: Float too large for page by 30.71806pt on input line 905.
+
+[29] [30 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f17-1-eps-convert
+ed-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f17-2-eps-conve
+rted-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f17-3-eps-con
+verted-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f17-4-eps-c
+onverted-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f17-5-eps
+-converted-to.pdf>] [31] [32] [33] [34] [35] [36] [37]
+<figures/f16.pdf, id=1363, 350.30875pt x 398.48875pt>
+File: figures/f16.pdf Graphic file (type pdf)
+ <use figures/f16.pdf>
+Package pdftex.def Info: figures/f16.pdf used on input line 1338.
+(pdftex.def)             Requested size: 144.54pt x 164.42119pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1369
+
+ []
+
+[38 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f16.pdf>]
+<figures/f13.pdf, id=1382, 605.26125pt x 429.605pt>
+File: figures/f13.pdf Graphic file (type pdf)
+ <use figures/f13.pdf>
+Package pdftex.def Info: figures/f13.pdf used on input line 1394.
+(pdftex.def)             Requested size: 216.81pt x 153.89072pt.
+
+[39 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f13.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1432
+
+ []
+
+<figures/f14.pdf, id=1396, 716.6775pt x 272.01625pt>
+File: figures/f14.pdf Graphic file (type pdf)
+ <use figures/f14.pdf>
+Package pdftex.def Info: figures/f14.pdf used on input line 1452.
+(pdftex.def)             Requested size: 289.07999pt x 109.72185pt.
+
+[40] <figures/f15.pdf, id=1410, 398.48875pt x 316.18124pt>
+File: figures/f15.pdf Graphic file (type pdf)
+
+<use figures/f15.pdf>
+Package pdftex.def Info: figures/f15.pdf used on input line 1489.
+(pdftex.def)             Requested size: 216.81pt x 172.02829pt.
+ [41 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f14.pdf> <C:/Users/su
+201500/Documents/Ji_Ph.D._Thesis/figures/f15.pdf>]
+[42] [43] [44]
+Package epstopdf Info: Source file: <figures/f7.eps>
+(epstopdf)                    date: 2014-05-14 16:28:12
+(epstopdf)                    size: 1815417 bytes
+(epstopdf)             Output file: <figures/f7-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:08
+(epstopdf)                    size: 53221 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f7-eps-converted-to
+.pdf figures/f7.eps>
+(epstopdf)             \includegraphics on input line 1676.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f7-eps-converted-to.pdf, id=1493, 751.80875pt x 467.7475pt>
+File: figures/f7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f7-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f7-eps-converted-to.pdf used on input line 167
+6.
+(pdftex.def)             Requested size: 367.04054pt x 228.3632pt.
+ [45 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f7-eps-converted-to.p
+df>]
+Package epstopdf Info: Source file: <figures/f8.eps>
+(epstopdf)                    date: 2014-03-31 10:18:15
+(epstopdf)                    size: 710064 bytes
+(epstopdf)             Output file: <figures/f8-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:09
+(epstopdf)                    size: 18561 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f8-eps-converted-to
+.pdf figures/f8.eps>
+(epstopdf)             \includegraphics on input line 1744.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f8-eps-converted-to.pdf, id=1509, 634.37pt x 210.7875pt>
+File: figures/f8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f8-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f8-eps-converted-to.pdf used on input line 174
+4.
+(pdftex.def)             Requested size: 367.04054pt x 121.96414pt.
+ [46] [47 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f8-eps-converted
+-to.pdf>] [48] [49]
+Package epstopdf Info: Source file: <figures/f10.eps>
+(epstopdf)                    date: 2014-04-09 20:26:28
+(epstopdf)                    size: 1397479 bytes
+(epstopdf)             Output file: <figures/f10-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:11
+(epstopdf)                    size: 24370 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f10-eps-converted-t
+o.pdf figures/f10.eps>
+(epstopdf)             \includegraphics on input line 1839.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f10-eps-converted-to.pdf, id=1556, 767.86874pt x 347.2975pt>
+File: figures/f10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f10-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f10-eps-converted-to.pdf used on input line 18
+39.
+(pdftex.def)             Requested size: 367.04054pt x 166.012pt.
+ [50
+
+
+ <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f10-eps-converted-to.pdf>
+]
+Package epstopdf Info: Source file: <figures/f11.eps>
+(epstopdf)                    date: 2014-04-09 20:26:55
+(epstopdf)                    size: 1636803 bytes
+(epstopdf)             Output file: <figures/f11-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:12
+(epstopdf)                    size: 39353 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f11-eps-converted-t
+o.pdf figures/f11.eps>
+(epstopdf)             \includegraphics on input line 1903.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f11-eps-converted-to.pdf, id=1589, 774.895pt x 410.53375pt>
+File: figures/f11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f11-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f11-eps-converted-to.pdf used on input line 19
+03.
+(pdftex.def)             Requested size: 367.04054pt x 194.4543pt.
+ [51] [52 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f11-eps-converte
+d-to.pdf>]
+Package epstopdf Info: Source file: <figures/f12.eps>
+(epstopdf)                    date: 2014-04-09 20:34:05
+(epstopdf)                    size: 2986257 bytes
+(epstopdf)             Output file: <figures/f12-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:14
+(epstopdf)                    size: 73334 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f12-eps-converted-t
+o.pdf figures/f12.eps>
+(epstopdf)             \includegraphics on input line 1956.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/f12-eps-converted-to.pdf, id=1625, 896.34875pt x 649.42625pt>
+File: figures/f12-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f12-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f12-eps-converted-to.pdf used on input line 19
+56.
+(pdftex.def)             Requested size: 367.04054pt x 265.92957pt.
+ [53 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f12-eps-converted-to.
+pdf>] [54] [55] [56]
+Overfull \hbox (4.34073pt too wide) in paragraph at lines 2111--2128
+\T1/ptm/m/n/12 ter-face, which sup-ports the def-i-ni-tion of dif-fer-ent kinds
+ of SWfs, in-clud-ing meta-workflows
+ []
+
+Package epstopdf Info: Source file: <figures/f18.eps>
+(epstopdf)                    date: 2015-02-05 15:56:40
+(epstopdf)                    size: 524361 bytes
+(epstopdf)             Output file: <figures/f18-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:16:15
+(epstopdf)                    size: 7635 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/f18-eps-converted-t
+o.pdf figures/f18.eps>
+(epstopdf)             \includegraphics on input line 2154.
+Package epstopdf Info: Output file is already uptodate.
+<figures/f18-eps-converted-to.pdf, id=1721, 516.93124pt x 185.69376pt>
+File: figures/f18-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/f18-eps-converted-to.pdf>
+Package pdftex.def Info: figures/f18-eps-converted-to.pdf used on input line 21
+54.
+(pdftex.def)             Requested size: 239.00314pt x 85.8565pt.
+ [57 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/f18-eps-converted-to.
+pdf>]
+Overfull \hbox (3.84557pt too wide) in paragraph at lines 2208--2215
+[]\T1/ptm/m/n/12 First, we in-tro-duced the def-i-ni-tions in SWf man-age-ment,
+ in-clud-ing SWfs and SWfMSs.
+ []
+
+[58] [59]) [60] (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\SWEMC/SWEMC.tex
+Chapter 3.
+[61
+
+
+
+] [62] [63]
+Package epstopdf Info: Source file: <figures/SF4_fragment.eps>
+(epstopdf)                    date: 2014-07-08 22:17:49
+(epstopdf)                    size: 1248597 bytes
+(epstopdf)             Output file: <figures/SF4_fragment-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-03-06 10:39:17
+(epstopdf)                    size: 35652 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/SF4_fragment-eps-co
+nverted-to.pdf figures/SF4_fragment.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/SF4_fragment-eps-converted-to.pdf, id=1792, 715.67375pt x 328.22626pt>
+File: figures/SF4_fragment-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/SF4_fragment-eps-converted-to.pdf>
+Package pdftex.def Info: figures/SF4_fragment-eps-converted-to.pdf used on inpu
+t line 75.
+(pdftex.def)             Requested size: 289.07999pt x 132.58032pt.
+ [64]
+Package epstopdf Info: Source file: <figures/SF0.eps>
+(epstopdf)                    date: 2014-06-06 23:37:52
+(epstopdf)                    size: 1303048 bytes
+(epstopdf)             Output file: <figures/SF0-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:39:19
+(epstopdf)                    size: 38939 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/SF0-eps-converted-t
+o.pdf figures/SF0.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/SF0-eps-converted-to.pdf, id=1803, 453.695pt x 526.96875pt>
+File: figures/SF0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/SF0-eps-converted-to.pdf>
+Package pdftex.def Info: figures/SF0-eps-converted-to.pdf used on input line 10
+5.
+(pdftex.def)             Requested size: 166.2212pt x 193.06165pt.
+Package epstopdf Info: Source file: <figures/SF1.eps>
+(epstopdf)                    date: 2014-06-06 23:38:13
+(epstopdf)                    size: 1302844 bytes
+(epstopdf)             Output file: <figures/SF1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:39:20
+(epstopdf)                    size: 41635 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/SF1-eps-converted-t
+o.pdf figures/SF1.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/SF1-eps-converted-to.pdf, id=1804, 453.695pt x 526.96875pt>
+File: figures/SF1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/SF1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/SF1-eps-converted-to.pdf used on input line 10
+6.
+(pdftex.def)             Requested size: 166.2212pt x 193.06165pt.
+Package epstopdf Info: Source file: <figures/SF2.eps>
+(epstopdf)                    date: 2014-06-06 23:40:25
+(epstopdf)                    size: 1300204 bytes
+(epstopdf)             Output file: <figures/SF2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:39:22
+(epstopdf)                    size: 48135 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/SF2-eps-converted-t
+o.pdf figures/SF2.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/SF2-eps-converted-to.pdf, id=1805, 453.695pt x 526.96875pt>
+File: figures/SF2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/SF2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/SF2-eps-converted-to.pdf used on input line 10
+7.
+(pdftex.def)             Requested size: 166.2212pt x 193.06165pt.
+Package epstopdf Info: Source file: <figures/SF3.eps>
+(epstopdf)                    date: 2014-06-07 01:01:47
+(epstopdf)                    size: 1302980 bytes
+(epstopdf)             Output file: <figures/SF3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:39:23
+(epstopdf)                    size: 39707 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/SF3-eps-converted-t
+o.pdf figures/SF3.eps>
+(epstopdf)             \includegraphics on input line 108.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/SF3-eps-converted-to.pdf, id=1806, 453.695pt x 526.96875pt>
+File: figures/SF3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/SF3-eps-converted-to.pdf>
+Package pdftex.def Info: figures/SF3-eps-converted-to.pdf used on input line 10
+8.
+(pdftex.def)             Requested size: 166.2212pt x 193.06165pt.
+Package epstopdf Info: Source file: <figures/SF5.eps>
+(epstopdf)                    date: 2014-06-09 14:24:04
+(epstopdf)                    size: 350715 bytes
+(epstopdf)             Output file: <figures/SF5-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-06 10:39:24
+(epstopdf)                    size: 9117 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/SF5-eps-converted-t
+o.pdf figures/SF5.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/SF5-eps-converted-to.pdf, id=1807, 952.55875pt x 64.24pt>
+File: figures/SF5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/SF5-eps-converted-to.pdf>
+Package pdftex.def Info: figures/SF5-eps-converted-to.pdf used on input line 10
+9.
+(pdftex.def)             Requested size: 332.44243pt x 22.41963pt.
+ [65 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SF4_fragment-eps-conv
+erted-to.pdf>] [66 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SF0-eps
+-converted-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SF1-eps
+-converted-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SF2-eps
+-converted-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SF3-eps
+-converted-to.pdf> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SF5-eps
+-converted-to.pdf>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 153.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 162.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 165.
+
+[67] [68] [69]
+Overfull \hbox (5.38498pt too wide) in paragraph at lines 236--255
+ [][] 
+ []
+
+) [70] [71] (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\provisioning/WFSMC.tex
+[72
+
+
+
+]
+Chapter 4.
+[73] [74]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 81.
+
+[75]
+Overfull \hbox (4.97931pt too wide) in paragraph at lines 82--85
+$\OML/lmm/m/it/12 InitializationTime$ \T1/ptm/m/n/12 rep-re-sents the time to i
+ni-tial-ize the en-vi-ron-ment and $\OML/lmm/m/it/12 ExecutionTime$
+ []
+
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 99.
+
+
+Overfull \hbox (0.93661pt too wide) in paragraph at lines 100--120
+$\OML/lmm/m/it/12 $[][][] \T1/ptm/m/n/12 rep-re-sents the per-cent-age of the 
+work-load that can be ex-e-cuted in par-al-lel. $\OML/lmm/m/it/12 Computing$\T1
+/ptm/m/n/12 -
+ []
+
+[76]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 143.
+
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 153.
+
+[77]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 168.
+
+
+Overfull \hbox (1.74849pt too wide) in paragraph at lines 182--184
+\T1/ptm/m/n/12 tual CPUs, we use For-mula []4.14[], which has no floor func-tio
+n, for $\OML/lmm/m/it/12 ExecutionMoney\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 SW$\T1
+/ptm/m/n/12 -
+ []
+
+[78] [79] [80] <figures/pscievol.pdf, id=2030, 842.14626pt x 275.0275pt>
+File: figures/pscievol.pdf Graphic file (type pdf)
+
+<use figures/pscievol.pdf>
+Package pdftex.def Info: figures/pscievol.pdf used on input line 255.
+(pdftex.def)             Requested size: 398.33858pt x 130.08966pt.
+ [81 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/pscievol.pdf>] [82] <
+figures/FIG6.pdf, id=2060, 361.35pt x 252.945pt>
+File: figures/FIG6.pdf Graphic file (type pdf)
+
+<use figures/FIG6.pdf>
+Package pdftex.def Info: figures/FIG6.pdf used on input line 359.
+(pdftex.def)             Requested size: 256.0748pt x 179.25255pt.
+ [83] [84 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG6.pdf>] <figu
+res/FIG7.pdf, id=2091, 361.35pt x 252.945pt>
+File: figures/FIG7.pdf Graphic file (type pdf)
+
+<use figures/FIG7.pdf>
+Package pdftex.def Info: figures/FIG7.pdf used on input line 450.
+(pdftex.def)             Requested size: 256.0748pt x 179.25255pt.
+ [85] [86 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG7.pdf>] <figu
+res/FIG8_1.pdf, id=2174, 361.35pt x 252.945pt>
+File: figures/FIG8_1.pdf Graphic file (type pdf)
+
+<use figures/FIG8_1.pdf>
+Package pdftex.def Info: figures/FIG8_1.pdf used on input line 470.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG8_2.pdf, id=2175, 361.35pt x 252.945pt>
+File: figures/FIG8_2.pdf Graphic file (type pdf)
+
+<use figures/FIG8_2.pdf>
+Package pdftex.def Info: figures/FIG8_2.pdf used on input line 471.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG8_3.pdf, id=2176, 361.35pt x 252.945pt>
+File: figures/FIG8_3.pdf Graphic file (type pdf)
+
+<use figures/FIG8_3.pdf>
+Package pdftex.def Info: figures/FIG8_3.pdf used on input line 472.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ [87 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG8_1.pdf> <C:/Users
+/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG8_2.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG8_2.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG8_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG8_3.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>]) [88] (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Multio/WFSMC.tex
+Chapter 5.
+[89
+
+
+
+] [90] [91] [92] [93]
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+
+ []
+
+[94] <figures/FIG1.pdf, id=2333, 579.16376pt x 294.09875pt>
+File: figures/FIG1.pdf Graphic file (type pdf)
+
+<use figures/FIG1.pdf>
+Package pdftex.def Info: figures/FIG1.pdf used on input line 129.
+(pdftex.def)             Requested size: 256.0748pt x 130.0321pt.
+ [95 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG1.pdf>] [96]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 182.
+
+[97]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 193.
+
+[98]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 235.
+
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 244.
+
+[99] [100
+
+]
+
+Package amsmath Warning: Cannot use `split' here;
+(amsmath)                trying to recover with `aligned' on input line 286.
+
+<figures/FIG2.pdf, id=2424, 1163.34625pt x 468.75125pt>
+File: figures/FIG2.pdf Graphic file (type pdf)
+ <use figures/FIG2.pdf>
+Package pdftex.def Info: figures/FIG2.pdf used on input line 308.
+(pdftex.def)             Requested size: 398.33858pt x 160.50342pt.
+
+[101
+
+] <figures/FIG3.pdf, id=2435, 580.1675pt x 719.68875pt>
+File: figures/FIG3.pdf Graphic file (type pdf)
+
+<use figures/FIG3.pdf>
+Package pdftex.def Info: figures/FIG3.pdf used on input line 337.
+(pdftex.def)             Requested size: 256.0748pt x 317.65237pt.
+ [102 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG2.pdf>] [103 <C:/
+Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG3.pdf>] [104] <figures/FIG4
+.pdf, id=2466, 577.15625pt x 607.26875pt>
+File: figures/FIG4.pdf Graphic file (type pdf)
+
+<use figures/FIG4.pdf>
+Package pdftex.def Info: figures/FIG4.pdf used on input line 399.
+(pdftex.def)             Requested size: 256.0748pt x 269.44148pt.
+ [105] [106 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG4.pdf>] [10
+7] <figures/FIG5.pdf, id=2492, 568.1225pt x 685.56125pt>
+File: figures/FIG5.pdf Graphic file (type pdf)
+
+<use figures/FIG5.pdf>
+Package pdftex.def Info: figures/FIG5.pdf used on input line 457.
+(pdftex.def)             Requested size: 256.0748pt x 309.02275pt.
+ [108 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG5.pdf>] [109] [11
+0] [111] [112]
+<figures/FIG9_1.pdf, id=2541, 361.35pt x 252.945pt>
+File: figures/FIG9_1.pdf Graphic file (type pdf)
+ <use figures/FIG9_1.pdf>
+Package pdftex.def Info: figures/FIG9_1.pdf used on input line 647.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+
+<figures/FIG9_2.pdf, id=2542, 361.35pt x 252.945pt>
+File: figures/FIG9_2.pdf Graphic file (type pdf)
+ <use figures/FIG9_2.pdf>
+Package pdftex.def Info: figures/FIG9_2.pdf used on input line 648.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+
+<figures/FIG9_3.pdf, id=2543, 361.35pt x 252.945pt>
+File: figures/FIG9_3.pdf Graphic file (type pdf)
+ <use figures/FIG9_3.pdf>
+Package pdftex.def Info: figures/FIG9_3.pdf used on input line 649.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+
+[113 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG9_1.pdf> <C:/Users
+/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG9_2.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG9_2.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG9_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG9_3.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>] <figures/FIG10.pdf, id=2665, 361.35pt x 252.945pt>
+File: figures/FIG10.pdf Graphic file (type pdf)
+ <use figures/FIG10.pdf>
+Package pdftex.def Info: figures/FIG10.pdf used on input line 659.
+(pdftex.def)             Requested size: 256.0748pt x 179.25255pt.
+
+[114 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG10.pdf>]
+<figures/FIG11_1.pdf, id=2701, 361.35pt x 252.945pt>
+File: figures/FIG11_1.pdf Graphic file (type pdf)
+ <use figures/FIG11_1.pdf>
+Package pdftex.def Info: figures/FIG11_1.pdf used on input line 677.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+
+<figures/FIG11_2.pdf, id=2702, 361.35pt x 252.945pt>
+File: figures/FIG11_2.pdf Graphic file (type pdf)
+ <use figures/FIG11_2.pdf>
+Package pdftex.def Info: figures/FIG11_2.pdf used on input line 678.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+
+<figures/FIG11_3.pdf, id=2703, 361.35pt x 252.945pt>
+File: figures/FIG11_3.pdf Graphic file (type pdf)
+ <use figures/FIG11_3.pdf>
+Package pdftex.def Info: figures/FIG11_3.pdf used on input line 679.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+
+[115 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG11_1.pdf> <C:/User
+s/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG11_2.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG11_2.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG11_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG11_3.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] <figures/FIG12_1.pdf, id=2828, 361.35pt x 252.945pt>
+File: figures/FIG12_1.pdf Graphic file (type pdf)
+
+<use figures/FIG12_1.pdf>
+Package pdftex.def Info: figures/FIG12_1.pdf used on input line 688.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG12_2.pdf, id=2829, 361.35pt x 252.945pt>
+File: figures/FIG12_2.pdf Graphic file (type pdf)
+
+<use figures/FIG12_2.pdf>
+Package pdftex.def Info: figures/FIG12_2.pdf used on input line 689.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG12_3.pdf, id=2830, 361.35pt x 252.945pt>
+File: figures/FIG12_3.pdf Graphic file (type pdf)
+
+<use figures/FIG12_3.pdf>
+Package pdftex.def Info: figures/FIG12_3.pdf used on input line 690.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG13_1.pdf, id=2834, 361.35pt x 252.945pt>
+File: figures/FIG13_1.pdf Graphic file (type pdf)
+
+<use figures/FIG13_1.pdf>
+Package pdftex.def Info: figures/FIG13_1.pdf used on input line 700.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG13_2.pdf, id=2835, 361.35pt x 252.945pt>
+File: figures/FIG13_2.pdf Graphic file (type pdf)
+
+<use figures/FIG13_2.pdf>
+Package pdftex.def Info: figures/FIG13_2.pdf used on input line 701.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG13_3.pdf, id=2836, 361.35pt x 252.945pt>
+File: figures/FIG13_3.pdf Graphic file (type pdf)
+
+<use figures/FIG13_3.pdf>
+Package pdftex.def Info: figures/FIG13_3.pdf used on input line 702.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ [116 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG12_1.pdf> <C:/Use
+rs/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG12_2.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG12_2.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG12_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG12_3.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] [117 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG13_1.pdf> <C:/U
+sers/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG13_2.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG13_2.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG13_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG13_3.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] <figures/FIG14_1.pdf, id=3068, 361.35pt x 252.945pt>
+File: figures/FIG14_1.pdf Graphic file (type pdf)
+
+<use figures/FIG14_1.pdf>
+Package pdftex.def Info: figures/FIG14_1.pdf used on input line 718.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG14_2.pdf, id=3069, 361.35pt x 252.945pt>
+File: figures/FIG14_2.pdf Graphic file (type pdf)
+
+<use figures/FIG14_2.pdf>
+Package pdftex.def Info: figures/FIG14_2.pdf used on input line 719.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG14_3.pdf, id=3070, 361.35pt x 252.945pt>
+File: figures/FIG14_3.pdf Graphic file (type pdf)
+
+<use figures/FIG14_3.pdf>
+Package pdftex.def Info: figures/FIG14_3.pdf used on input line 720.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG15_1.pdf, id=3074, 361.35pt x 252.945pt>
+File: figures/FIG15_1.pdf Graphic file (type pdf)
+
+<use figures/FIG15_1.pdf>
+Package pdftex.def Info: figures/FIG15_1.pdf used on input line 727.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG15_2.pdf, id=3075, 361.35pt x 252.945pt>
+File: figures/FIG15_2.pdf Graphic file (type pdf)
+
+<use figures/FIG15_2.pdf>
+Package pdftex.def Info: figures/FIG15_2.pdf used on input line 728.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG15_3.pdf, id=3076, 361.35pt x 252.945pt>
+File: figures/FIG15_3.pdf Graphic file (type pdf)
+
+<use figures/FIG15_3.pdf>
+Package pdftex.def Info: figures/FIG15_3.pdf used on input line 729.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ [118 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG14_1.pdf> <C:/Use
+rs/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG14_2.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG14_2.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG14_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG14_3.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] <figures/FIG16.pdf, id=3179, 1089.06876pt x 373.395pt>
+File: figures/FIG16.pdf Graphic file (type pdf)
+
+<use figures/FIG16.pdf>
+Package pdftex.def Info: figures/FIG16.pdf used on input line 739.
+(pdftex.def)             Requested size: 398.33858pt x 136.57007pt.
+
+Overfull \hbox (1.8477pt too wide) in paragraph at lines 751--763
+ [][] 
+ []
+
+[119 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG15_1.pdf> <C:/User
+s/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG15_2.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG15_2.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG15_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG15_3.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>] <figures/FIG17_1.pdf, id=3300, 361.35pt x 252.945pt>
+File: figures/FIG17_1.pdf Graphic file (type pdf)
+
+<use figures/FIG17_1.pdf>
+Package pdftex.def Info: figures/FIG17_1.pdf used on input line 796.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/FIG17_3.pdf, id=3301, 361.35pt x 252.945pt>
+File: figures/FIG17_3.pdf Graphic file (type pdf)
+
+<use figures/FIG17_3.pdf>
+Package pdftex.def Info: figures/FIG17_3.pdf used on input line 797.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/za.pdf, id=3302, 361.35pt x 252.945pt>
+File: figures/za.pdf Graphic file (type pdf)
+
+<use figures/za.pdf>
+Package pdftex.def Info: figures/za.pdf used on input line 798.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ <figures/zs.pdf, id=3303, 361.35pt x 252.945pt>
+File: figures/zs.pdf Graphic file (type pdf)
+
+<use figures/zs.pdf>
+Package pdftex.def Info: figures/zs.pdf used on input line 799.
+(pdftex.def)             Requested size: 167.87125pt x 117.51013pt.
+ [120 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG16.pdf>] [121 <C:
+/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/FIG17_1.pdf> <C:/Users/su2015
+00/Documents/Ji_Ph.D._Thesis/figures/FIG17_3.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/FIG17_3.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/za.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/za.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+> <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/zs.pdf
+
+pdfTeX warning: pdflatex (file C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figu
+res/zs.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+>]) [122] (C:\Users\su201500\Documents\Ji_Ph.D._Thesis\FGTS/FGTSMCPS.tex
+Chapter 6.
+[123
+
+
+
+] [124] [125] <figures/SIMD.pdf, id=3411, 482.80376pt x 336.25626pt>
+File: figures/SIMD.pdf Graphic file (type pdf)
+
+<use figures/SIMD.pdf>
+Package pdftex.def Info: figures/SIMD.pdf used on input line 77.
+(pdftex.def)             Requested size: 239.00314pt x 166.45505pt.
+ [126 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SIMD.pdf>] <figures/
+EASSC.pdf, id=3422, 520.94624pt x 208.78pt>
+File: figures/EASSC.pdf Graphic file (type pdf)
+
+<use figures/EASSC.pdf>
+Package pdftex.def Info: figures/EASSC.pdf used on input line 114.
+(pdftex.def)             Requested size: 241.84842pt x 96.92558pt.
+ [127 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/EASSC.pdf>] <figures
+/CA.pdf, id=3436, 430.60875pt x 182.6825pt>
+File: figures/CA.pdf Graphic file (type pdf)
+
+<use figures/CA.pdf>
+Package pdftex.def Info: figures/CA.pdf used on input line 132.
+(pdftex.def)             Requested size: 239.00314pt x 101.39833pt.
+ [128 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/CA.pdf>] <figures/SP
+rov.pdf, id=3449, 465.17325pt x 414.21562pt>
+File: figures/SProv.pdf Graphic file (type pdf)
+
+<use figures/SProv.pdf>
+Package pdftex.def Info: figures/SProv.pdf used on input line 157.
+(pdftex.def)             Requested size: 227.62204pt x 202.68301pt.
+ <figures/MEE.pdf, id=3452, 532.99126pt x 388.45125pt>
+File: figures/MEE.pdf Graphic file (type pdf)
+
+<use figures/MEE.pdf>
+Package pdftex.def Info: figures/MEE.pdf used on input line 171.
+(pdftex.def)             Requested size: 241.84842pt x 176.25955pt.
+ [129 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/SProv.pdf>] [130 <C:
+/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/MEE.pdf>] <figures/MCA.pdf, i
+d=3722, 430.60875pt x 244.915pt>
+File: figures/MCA.pdf Graphic file (type pdf)
+ <use figures/MCA.pdf>
+Package pdftex.def Info: figures/MCA.pdf used on input line 185.
+(pdftex.def)             Requested size: 239.00314pt x 135.94063pt.
+
+<figures/MProv.pdf, id=3725, 425.28407pt x 269.88445pt>
+File: figures/MProv.pdf Graphic file (type pdf)
+
+<use figures/MProv.pdf>
+Package pdftex.def Info: figures/MProv.pdf used on input line 200.
+(pdftex.def)             Requested size: 239.00314pt x 151.6696pt.
+ [131 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/MCA.pdf>] <figures/M
+S.pdf, id=3736, 518.93875pt x 435.6275pt>
+File: figures/MS.pdf Graphic file (type pdf)
+
+<use figures/MS.pdf>
+Package pdftex.def Info: figures/MS.pdf used on input line 229.
+(pdftex.def)             Requested size: 241.84842pt x 203.02335pt.
+ [132 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/MProv.pdf>] [133 <C:
+/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/MS.pdf>]
+[134] [135] [136] <figures/Buzz.png, id=3932, 511.9125pt x 400.49625pt>
+File: figures/Buzz.png Graphic file (type png)
+
+<use figures/Buzz.png>
+Package pdftex.def Info: figures/Buzz.png used on input line 372.
+(pdftex.def)             Requested size: 239.00314pt x 186.9866pt.
+ [137 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/Buzz.png>] <figures/
+Montage.pdf, id=3946, 383.4325pt x 210.7875pt>
+File: figures/Montage.pdf Graphic file (type pdf)
+
+<use figures/Montage.pdf>
+Package pdftex.def Info: figures/Montage.pdf used on input line 393.
+(pdftex.def)             Requested size: 241.84842pt x 132.95442pt.
+ [138 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/Montage.pdf>] <figur
+es/60buzz.pdf, id=3957, 361.35pt x 252.945pt>
+File: figures/60buzz.pdf Graphic file (type pdf)
+
+<use figures/60buzz.pdf>
+Package pdftex.def Info: figures/60buzz.pdf used on input line 418.
+(pdftex.def)             Requested size: 239.00314pt x 167.30316pt.
+ [139 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/60buzz.pdf>] <figure
+s/execTime.pdf, id=3986, 361.35pt x 252.945pt>
+File: figures/execTime.pdf Graphic file (type pdf)
+
+<use figures/execTime.pdf>
+Package pdftex.def Info: figures/execTime.pdf used on input line 434.
+(pdftex.def)             Requested size: 239.00314pt x 167.30316pt.
+ [140 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/execTime.pdf>] <figu
+res/montage05.pdf, id=4012, 361.35pt x 252.945pt>
+File: figures/montage05.pdf Graphic file (type pdf)
+
+<use figures/montage05.pdf>
+Package pdftex.def Info: figures/montage05.pdf used on input line 449.
+(pdftex.def)             Requested size: 239.00314pt x 167.30316pt.
+ [141 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/montage05.pdf>] <fig
+ures/montage1.pdf, id=4037, 361.35pt x 252.945pt>
+File: figures/montage1.pdf Graphic file (type pdf)
+
+<use figures/montage1.pdf>
+Package pdftex.def Info: figures/montage1.pdf used on input line 462.
+(pdftex.def)             Requested size: 239.00314pt x 167.30316pt.
+ [142 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/montage1.pdf>] <figu
+res/provBuzz.pdf, id=4066, 361.35pt x 252.945pt>
+File: figures/provBuzz.pdf Graphic file (type pdf)
+
+<use figures/provBuzz.pdf>
+Package pdftex.def Info: figures/provBuzz.pdf used on input line 515.
+(pdftex.def)             Requested size: 239.00314pt x 167.30316pt.
+ [143 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/provBuzz.pdf>] <figu
+res/provMontage.pdf, id=4108, 361.35pt x 252.945pt>
+File: figures/provMontage.pdf Graphic file (type pdf)
+
+<use figures/provMontage.pdf>
+Package pdftex.def Info: figures/provMontage.pdf used on input line 526.
+(pdftex.def)             Requested size: 239.00314pt x 167.30316pt.
+) [144 <C:/Users/su201500/Documents/Ji_Ph.D._Thesis/figures/provMontage.pdf>] [
+145]
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\conclusion/Conclusions.tex
+[146
+
+
+
+]
+Chapter 7.
+[147] [148] [149] [150] [151]) [152]
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\PHD-Manuscript.bbl
+Underfull \hbox (badness 1253) in paragraph at lines 12--15
+[]\T1/ptm/m/n/12 Computing ca-pac-ity for a CPU.  []$\T1/pcr/m/n/12 http : / / 
+en . community . dell . com /$
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 42--45
+[]\T1/ptm/m/n/12 VM band-width in Azure.  http://windowsazureguide.net/tag/auzr
+e-virtual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+[]\T1/ptm/m/n/12 VM pa-ram-e-ters in Azure.  http://msdn.microsoft.com/en-
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 63--65
+[]\T1/ptm/m/n/12 Pegasus 4.4.1 user guide.  []$\T1/pcr/m/n/12 https : / / pegas
+us . isi . edu / wms / docs /$
+ []
+
+[153
+
+
+
+] [154] [155] [156] [157] [158] [159] [160] [161]
+Underfull \hbox (badness 2134) in paragraph at lines 693--699
+[]\T1/ptm/m/sc/12 Kozlovszky, M., Karóczkai, K., Már-ton, I., Kac-suk, P., and
+ []
+
+[162] [163] [164]
+Underfull \hbox (badness 1314) in paragraph at lines 888--893
+[]\T1/ptm/m/sc/12 Olabarriaga, S., Ben-ab-delka-der, A., Caan, M., Jaghoori, M.
+,
+ []
+
+[165] [166] [167] [168] [169] [170])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+ [171]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\PHD-Manuscript.aux
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Act.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Resume.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/Abstract.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Lab/Lab.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Abstract/French.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Intro/MMDSWC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\StateOfTheArt/PSWC_J.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\SWEMC/SWEMC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\provisioning/WFSMC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\Multio/WFSMC.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\FGTS/FGTSMCPS.aux)
+(C:\Users\su201500\Documents\Ji_Ph.D._Thesis\conclusion/Conclusions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package rerunfilecheck Info: File `PHD-Manuscript.out' has not changed.
+(rerunfilecheck)             Checksum: 33EDB8423529BEA9A12956B75B0D1A2E;8677.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+ ) 
 Here is how much of TeX's memory you used:
- 18271 strings out of 493921
- 304856 string characters out of 3147272
- 492515 words of memory out of 3000000
- 21228 multiletter control sequences out of 15000+200000
- 4808 words of font info for 17 fonts, out of 3000000 for 9000
+ 29214 strings out of 493921
+ 515840 string characters out of 3147272
+ 717788 words of memory out of 3000000
+ 30962 multiletter control sequences out of 15000+200000
+ 114031 words of font info for 109 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 55i,0n,92p,10506b,85s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 65i,17n,92p,10506b,886s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
+sy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/tex-gyre/qtmr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/c
+ourier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on PHD-Manuscript.pdf (197 pages, 6482071 bytes).
+PDF statistics:
+ 4502 PDF objects out of 5155 (max. 8388607)
+ 715 named destinations out of 1000 (max. 500000)
+ 1352 words of extra memory for PDF output out of 10000 (max. 10000000)
+
